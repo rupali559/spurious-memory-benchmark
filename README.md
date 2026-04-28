@@ -5,8 +5,6 @@
 </p>
 
 
----
-
 ## Overview
 
 For each dataset sample the pipeline automatically:
@@ -88,10 +86,10 @@ For each dataset sample the pipeline automatically:
 
 ## How To Run - TravelPlanner
 
-    ### Step 0 — Parse raw TravelPlanner dataset into standard format
+    # Step 0 — Parse raw TravelPlanner dataset into standard format
     python3 pipeline/step0_parse_travelplanner.py
 
-    ### Step 1 — Discover causal structure (T, Y, X, M, DAG) using Qwen
+    # Step 1 — Discover causal structure (T, Y, X, M, DAG) using Qwen
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step1_discover_causal.py \
         --input_file data/travelplanner/parsed.json \
         --output_file data/travelplanner/causal_structures.json --limit 225
