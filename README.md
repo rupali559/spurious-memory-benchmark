@@ -49,34 +49,35 @@ Parse → Discover Causal Structure → Generate Spurious → Validate → Gener
 ---
 
 ## Project Structure
-spurious-memory-benchmark/
-│
-├── pipeline/
-│   ├── step0_parse_travelplanner.py   # Parse raw TravelPlanner dataset
-│   ├── step0_parse_intercode_ctf.py   # Parse raw InterCode-CTF dataset
-│   ├── step1_discover_causal.py       # Discover causal structure (T, Y, X, M, DAG)
-│   ├── step2_generate_spurious.py     # Generate 3 spurious correlation types
-│   ├── step3_validate_spurious.py     # Validate spurious features
-│   ├── step4_generate_queries.py      # Generate Q0–Q3 query versions
-│   └── step5_evaluate.py             # Evaluate systems with token + time tracking
-│
-├── data/
-│   ├── travelplanner/
-│   └── intercode_ctf/
-│
-├── results/
-│   ├── results_travelplanner.output
-│   ├── results_intercode_ctf.output
-│   └── logs/
-│
-├── utils/
-│   └── model.py
-│
-├── venv/                              # Python virtual environment
-├── generate_appendix.py
-├── appendix_a_output.txt
-├── requirements.txt
-└── README.md
+
+    spurious-memory-benchmark/
+
+      pipeline/
+        step0_parse_travelplanner.py    Parse raw TravelPlanner dataset
+        step0_parse_intercode_ctf.py    Parse raw InterCode-CTF dataset
+        step1_discover_causal.py        Discover causal structure (T, Y, X, M, DAG)
+        step2_generate_spurious.py      Generate 3 spurious correlation types
+        step3_validate_spurious.py      Validate spurious features
+        step4_generate_queries.py       Generate Q0-Q3 query versions
+        step5_evaluate.py               Evaluate systems with token and time tracking
+
+      data/
+        travelplanner/
+        intercode_ctf/
+
+      results/
+        results_travelplanner.output
+        results_intercode_ctf.output
+        logs/
+
+      utils/
+        model.py
+
+      venv/
+      generate_appendix.py
+      appendix_a_output.txt
+      requirements.txt
+      README.md
 
 ---
 
