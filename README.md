@@ -1,6 +1,16 @@
-# Spurious Memory Benchmark
+<h1 align="center">🔬 Spurious Memory Benchmark</h1>
 
-A benchmark pipeline to test whether LLMs can distinguish real causal relationships from spurious correlations in multi-turn memory settings.
+<p align="center">
+  <b>Benchmark pipeline to test whether LLMs can distinguish real causal relationships from spurious correlations in multi-turn memory settings</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/PyTorch-2.10-red?style=for-the-badge&logo=pytorch" />
+  <img src="https://img.shields.io/badge/Qwen-2.5--1.5B-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CUDA-Enabled-green?style=for-the-badge&logo=nvidia" />
+  <img src="https://img.shields.io/badge/Datasets-2-purple?style=for-the-badge" />
+</p>
 
 ---
 
