@@ -1,0 +1,31 @@
+=== InterCode-CTF EVALUATION RESULTS ===
+
+--- qwen_alone ---
+  Q0: 16.0% (16/100)
+  Q1: 44.9% (35/78)
+  Q2: 53.2% (42/79)
+  Q3: 40.5% (30/74)
+  Avg tokens/query : 251.3
+  Avg time/query   : 1.271s
+  Total tokens     : 83185
+  Total time       : 420.7s
+
+--- mem0 ---
+  Q0: 64.0% (64/100)
+  Q1: 50.0% (39/78)
+  Q2: 59.5% (47/79)
+  Q3: 48.6% (36/74)
+  Avg tokens/query : 417.0
+  Avg time/query   : 1.2s
+  Total tokens     : 138030
+  Total time       : 397.2s
+
+--- amem ---
+  Q0: 62.0% (62/100)
+  Q1: 50.0% (39/78)
+  Q2: 54.4% (43/79)
+  Q3: 44.6% (33/74)
+  Avg tokens/query : 417.7
+  Avg time/query   : 1.187s
+  Total tokens     : 138262
+  Total time       : 392.8s

@@ -1,0 +1,233 @@
+======================================================================
+APPENDIX A: MULTI-TURN DATASET EXAMPLES
+TravelPlanner (ICML 2024) | InterCode-CTF (NeurIPS 2023)
+======================================================================
+
+======================================================================
+DATASET 1: TravelPlanner (ICML 2024)
+======================================================================
+
+1.1 HOW ORIGINAL DATA LOOKS
+----------------------------------------
+Dataset        : TravelPlanner (osunlp/TravelPlanner)
+Total instances: 225 (train + validation)
+Task type      : Multi-turn travel planning with tool use
+Why multi-turn : Agent searches flights, hotels, restaurants across multiple steps
+Why needs memory: Must track costs across days to stay within budget
+
+Example 1: travelplanner_13
+  Origin      : Daytona Beach
+  Destination : Texas
+  Duration    : 7 days
+  Budget      : $3600
+  People      : 1 person(s)
+  Query       : Could you help me come up with a travel plan that starts in Daytona Beach and includes visits to 3 distinct cities in Texas over a span of 7 days, from March 18th to March 24th, 2022? I'll be traveling alone on a budget of $3,600.
+
+  Annotated Plan (ground truth):
+    Day 1: from Daytona Beach to Corpus Christi(Texas)
+      Transport    : Self-driving, from Daytona Beach to Corpus Christi(Texas), duration: 16 hours 52 mins, distance: 1,874 km, cost: 93
+      Accommodation: Penthouse Apartment in Chelsea, Corpus Christi(Texas)
+    Day 2: Corpus Christi(Texas)
+      Breakfast    : Confeitaria Colombo, Corpus Christi(Texas)
+      Attraction   : Texas State Aquarium, Corpus Christi(Texas);The Art Museum of South Texas, Corpus Christi(Texas);
+      Lunch        : The Binge Box Cafe, Corpus Christi(Texas)
+      Dinner       : Let's Noodle, Corpus Christi(Texas)
+      Accommodation: Penthouse Apartment in Chelsea, Corpus Christi(Texas)
+    Day 3: from Corpus Christi(Texas) to San Antonio(Texas)
+      Transport    : Self-driving, from Corpus Christi(Texas) to San Antonio(Texas), duration: 2 hours 2 mins, distance: 231 km, cost: 11
+      Breakfast    : Alwar Sweets, Corpus Christi(Texas)
+      Attraction   : San Antonio Museum of Art (SAMA), San Antonio(Texas);San Antonio Missions National Historical Park, San Antonio(Texas);
+      Lunch        : Cafe Le Rue @ The Landings, San Antonio(Texas)
+      Dinner       : Burger Queen Drive In, San Antonio(Texas)
+      Accommodation: Private House in Trendy Crown Heights, San Antonio(Texas)
+    ...continues for 7 days
+
+  Causal Structure:
+    T  : traveling to three distinct cities in Texas starting from Daytona Beach
+    Y  : a 7-day travel plan within $3600 budget for one person
+    X  : $3600 budget constraint
+    DAG: ['X -> T', 'T -> Y']
+
+  Three Types of Spuriousness:
+    Type 1 Confounding (S<-C->Y):
+      S      : Weather Conditions
+      C/X    : Seasonal Averages
+      Query  : Is weather conditions affecting the feasibility of my travel plan?
+      Answer : YES
+      Explain: While weather conditions can impact travel plans, they do not directly affect whether a 7-day travel plan can fit within a $3,600 budget.
+    Type 2 Collider (T->C<-S):
+      S      : Spending habits
+      C/X    : Budget allocation based on destination selection
+      Query  : Is it true that spending habits (S) directly affect the feasibility of having a 7-day travel plan within a $3600 budget for one person (Y), even though we know that selecting destinations (D) based on budget (C) can influence these choices?
+      Answer : NO
+      Explain: S and Y are only associated through collider C
+    Type 3 Proxy (S<-X->Y):
+      S      : Airbnb accommodation listings
+      C/X    : $3600 budget constraint
+      Query  : Is Airbnb accommodation listings the true cause of having a 7-day travel plan within a $3600 budget?
+      Answer : NO
+      Explain: A $3600 budget constraint directly influences whether Airbnb can be used effectively, while Airbnb listings themselves are simply intermediaries in finding accommodations.
+
+Example 2: travelplanner_16
+  Origin      : Sacramento
+  Destination : Atlanta
+  Duration    : 3 days
+  Budget      : $4700
+  People      : 2 person(s)
+  Query       : Could you please arrange a 3-day trip for two, starting in Sacramento and heading to Atlanta, from March 14th to March 16th, 2022. The budget for this trip is $4,700, and we require accommodations where parties are allowed.
+
+  Annotated Plan (ground truth):
+    Day 1: from Sacramento to Atlanta
+      Transport    : Flight Number: F3527024, from Sacramento to Atlanta, Departure Time: 12:18, Arrival Time: 19:36
+      Dinner       : The Krib, Atlanta
+      Accommodation: Spacious private room close St. Barnabas Hospital, Atlanta
+    Day 2: Atlanta
+      Breakfast    : Saffron, Atlanta
+      Attraction   : Georgia Aquarium, Atlanta;Martin Luther King, Jr. National Historical Park, Atlanta;Piedmont Park, Atlanta;
+      Lunch        : Chef Style, Atlanta
+      Dinner       : Pizza Central, Atlanta
+      Accommodation: Spacious private room close St. Barnabas Hospital, Atlanta
+    Day 3: from Atlanta to Sacramento
+      Transport    : Flight Number: F3542376, from Atlanta to Sacramento, Departure Time: 17:53, Arrival Time: 20:36
+      Breakfast    : Caboose X Cafe & Lounge, Atlanta
+      Attraction   : Krog Street Tunnel, Atlanta;Fernbank Museum | 3D Theater | Forest, Atlanta;Fox Theatre, Atlanta;
+      Lunch        : Chawla Snacks, Atlanta
+      Dinner       : Beliram Degchiwala, Atlanta
+    ...continues for 3 days
+
+  Causal Structure:
+    T  : arranging a 3-day trip
+    Y  : a 3-day trip from Sacramento to Atlanta for 2 people within budget of $4700 and adhering to party rules
+    X  : budget of $4700 and number of people (2)
+    DAG: ['T->Y', 'X->T']
+
+  Three Types of Spuriousness:
+    Type 1 Confounding (S<-C->Y):
+      S      : parties at accommodation
+      C/X    : flight booking platform popularity
+      Query  : Is it true that the presence of parties at accommodation (S) causes the outcome of a 3-day trip arranged with budget constraints (Y)?
+      Answer : NO
+      Explain: However, the presence of parties at accommodation (S) does not directly cause the outcome of an arranged trip within budget (Y). Instead, the popularity of flight booking platforms (C) influences both conditions.
+    Type 2 Collider (T->C<-S):
+      S      : Party Rules
+      C/X    : Accommodations Allowed
+      Query  : Could you arrange a 3-day trip for two from Sacramento to Atlanta within the given budget while following party rules?
+      Answer : YES
+      Explain: S (Party Rules) and Y (a 3-day trip within budget) are not directly related; they are linked through the collider C (Accommodations Allowed).
+    Type 3 Proxy (S<-X->Y):
+      S      : flight booking confirmation codes
+      C/X    : budget of $4700 and number of people (2)
+      Query  : Does having flight booking confirmation codes cause the outcome of a 3-day trip from Sacramento to Atlanta with a budget of $4700?
+      Answer : YES
+      Explain: The true causative variable X (budget and number of people) also includes flight bookings which are a common way to make reservations.
+
+1.2 SYSTEM PERFORMANCE — TravelPlanner (225 instances)
+----------------------------------------
+  System                          Q0       Q1       Q2       Q3  Leakage
+  -----------------------------------------------------------------
+  Qwen alone                   74.2%    57.1%    50.9%    57.0%    46.7%
+  Mem0 + Qwen                  68.4%    56.3%    51.8%    57.9%    31.0%
+  A-mem-sys + Qwen             68.0%    61.3%    57.3%    64.0%    26.9%
+
+======================================================================
+DATASET 2: InterCode-CTF (NeurIPS 2023)
+======================================================================
+
+2.1 HOW ORIGINAL DATA LOOKS
+----------------------------------------
+Dataset        : InterCode-CTF (princeton-nlp/intercode)
+Total instances: 100 CTF challenges
+Task type      : Multi-turn bash interaction — Capture The Flag
+Why multi-turn : Each bash command depends on previous output
+Why needs memory: Must remember file contents across turns to decode flag
+
+Example 1: ctf_0
+  Task ID : 0
+  Query   : You have 'read' access to the file 'unpackme.flag.py' that contains the hidden flag
+  Category: Reverse Engineering
+  Gold    : picoCTF{175_chr157m45_85f5d0ac}
+  Source  : https://play.picoctf.org/practice/challenge/314
+
+  Multi-turn bash interaction:
+    Turn 1: ls -la  ->  read found
+    Turn 2: cat read  ->  encrypted code displayed
+    Turn 3: python3 decode script  ->  partial flag
+    Turn 4: python3 read  ->  picoCTF{175_chr157m45_85f5d0ac}  (flag captured!)
+    Memory: Turn 2 file contents required at Turn 3
+
+  Causal Structure:
+    T  : Executing the correct sequence of bash commands to analyze and extract the hidden flag from the `unpackme.flag.py` file.
+    Y  : Capturing the hidden flag by interacting with the Bash shell in the CTF challenge environment.
+    X  : The presence of the `unpackme.flag.py` file and its contents within the challenge directory.
+    DAG: ['T->Y']
+
+  Three Types of Spuriousness:
+    Type 1 Confounding (S<-C->Y):
+      S      : Incorrect analysis techniques
+      C/X    : Misunderstanding the importance of the flag extraction process
+      Query  : Is it true that executing incorrect analysis techniques (incorrect analysis) leads to capturing the hidden flag through interaction with the Bash shell?
+      Answer : NO
+      Explain: Correct analysis (common cause) does not lead to capturing the flag; it only increases the likelihood of finding the flag.
+    Type 2 Collider (T->C<-S):
+      S      : Incorrect usage of Python syntax for string manipulation or file operations.
+      C/X    : Executing incorrect bash commands based on erroneous logic or assumptions about the script's structure.
+      Query  : Is it possible that incorrectly manipulating strings in Python leads to capturing the hidden flag without needing to interact with the Bash shell?
+      Answer : NO
+      Explain: S and Y are only associated through collider C
+    Type 3 Proxy (S<-X->Y):
+      S      : incorrect command execution or misunderstanding of the flag extraction process
+      C/X    : presence of the unpackme.flag.py file
+      Query  : Is it possible for an incorrect command execution (S) to directly result in capturing the hidden flag (Y)?
+      Answer : NO
+      Explain: Both incorrect command execution (S) and failure to capture the hidden flag (Y) can be caused by not understanding how to correctly extract the flag from the given file ('unpackme.flag.py').
+
+Example 2: ctf_1
+  Task ID : 1
+  Query   : You should utilize the 'dds2-alpine.flag.img.gz' image. All we know is the file with the flag is named `down-at-the-bottom.txt`. The 'sleuthkit' tools can be used for help.
+  Category: Forensics
+  Gold    : picoCTF{f0r3ns1c4t0r_n0v1c3_f5565e7b}
+  Source  : https://play.picoctf.org/practice/challenge/137
+
+  Multi-turn bash interaction:
+    Turn 1: ls -la  ->  dds2-alpine.flag.img.gz found
+    Turn 2: cat dds2-alpine.flag.img.gz  ->  encrypted code displayed
+    Turn 3: python3 decode script  ->  partial flag
+    Turn 4: python3 dds2-alpine.flag.img.gz  ->  picoCTF{f0r3ns1c4t0r_n0v1c3_f5565e7b}  (flag captured!)
+    Memory: Turn 2 file contents required at Turn 3
+
+  Causal Structure:
+    T  : Executing the correct sequence of bash commands to analyze and extract the hidden flag from the challenge files.
+    Y  : Capturing the flag by finding the hidden flag in the `down-at-the-bottom.txt` file.
+    X  : The presence of the `dds2-alpine.flag.img.gz` image and knowledge about its contents and tools like `sleuthkit`.
+    DAG: ['T->Y']
+
+  Three Types of Spuriousness:
+    Type 1 Confounding (S<-C->Y):
+      S      : Incorrect analysis method
+      C/X    : Using non-sleuthkit tools
+      Query  : Is it possible that incorrect analysis methods like those provided by SleuthKit can cause the outcome where the hidden flag is found?
+      Answer : YES
+      Explain: The explanation states that the common cause C (using non-Sleuthkit tools) causes both the spurious feature S and the observed outcome Y. Therefore, the trap is misleading as it assumes that the incorrect tool causes the result, which is not true.
+    Type 2 Collider (T->C<-S):
+      S      : incorrect extraction method using sleuthkit
+      C/X    : using incorrect tools or methods instead of proper forensic techniques
+      Query  : Is it true that using the sleuthkit tools correctly leads to capturing the hidden flag?
+      Answer : YES
+      Explain: The sleuthkit tools were mentioned as part of the forensics category, but they alone do not guarantee success without proper execution.
+    Type 3 Proxy (S<-X->Y):
+      S      : hidden_flag_location_in_down_at_the_bottom_file
+      C/X    : dds2-alpine.flag.img.gz and sleuthkit tools
+      Query  : Does knowing about the 'hidden_flag_location_in_down_at_the_bottom_file' affect whether capturing the flag is possible?
+      Answer : YES
+      Explain: Both S and X relate to the concept of locating a specific file or location, thus making it difficult to distinguish their individual roles.
+
+2.2 SYSTEM PERFORMANCE — InterCode-CTF (100 instances)
+----------------------------------------
+  System                          Q0       Q1       Q2       Q3  Leakage
+  -----------------------------------------------------------------
+  Qwen alone                   17.0%    61.6%    55.6%    43.2%     3.6%
+  Mem0 + Qwen                  69.0%    68.6%    56.8%    50.0%     3.6%
+  A-mem-sys + Qwen             69.0%    66.3%    61.7%    47.3%     2.7%
+  Key: Qwen alone only 17% Q0 — memory critical (+52% with Mem0/A-mem)
+
+======================================================================

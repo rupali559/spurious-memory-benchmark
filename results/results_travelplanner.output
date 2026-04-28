@@ -1,0 +1,31 @@
+=== TravelPlanner EVALUATION RESULTS ===
+
+--- qwen_alone ---
+  Q0: 80.0% (180/225)
+  Q1: 55.5% (66/119)
+  Q2: 53.6% (59/110)
+  Q3: 58.8% (67/114)
+  Avg tokens/query : 275.9
+  Avg time/query   : 1.151s
+  Total tokens     : 156709
+  Total time       : 653.6s
+
+--- mem0 ---
+  Q0: 68.9% (155/225)
+  Q1: 52.1% (62/119)
+  Q2: 57.3% (63/110)
+  Q3: 62.3% (71/114)
+  Avg tokens/query : 436.1
+  Avg time/query   : 1.157s
+  Total tokens     : 247701
+  Total time       : 657.2s
+
+--- amem ---
+  Q0: 66.7% (150/225)
+  Q1: 55.5% (66/119)
+  Q2: 59.1% (65/110)
+  Q3: 65.8% (75/114)
+  Avg tokens/query : 433.6
+  Avg time/query   : 1.133s
+  Total tokens     : 246304
+  Total time       : 643.3s

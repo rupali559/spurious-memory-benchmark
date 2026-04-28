@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+venv/
+data/travelplanner/raw.json
+data/intercode_ctf/raw.json

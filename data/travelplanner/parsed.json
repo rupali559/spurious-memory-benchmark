@@ -1,0 +1,3152 @@
+[
+  {
+    "id": "travelplanner_0",
+    "premise": "Please help me plan a trip from St. Petersburg to Rockford spanning 3 days from March 16th to March 18th, 2022. The travel should be planned for a single person with a budget of $1,700. Budget: $1700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from St. Petersburg to Rockford within budget of $1700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Petersburg to Rockford for 3 days within the given constraints",
+    "metadata": {
+      "org": "St. Petersburg",
+      "dest": "Rockford",
+      "days": 3,
+      "budget": 1700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_1",
+    "premise": "Can you provide a travel plan for 1 person departing from Kansas City to Pensacola for 3 days, from March 27th to March 29th, 2022, with a budget of $900? Budget: $900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Kansas City to Pensacola within budget of $900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Kansas City to Pensacola for 3 days within the given constraints",
+    "metadata": {
+      "org": "Kansas City",
+      "dest": "Pensacola",
+      "days": 3,
+      "budget": 900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_2",
+    "premise": "Please design a travel plan departing from Las Vegas and heading to Stockton for 3 days, from March 3rd to March 5th, 2022, for one person, with a budget of $1,400. Budget: $1400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Las Vegas to Stockton within budget of $1400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Las Vegas to Stockton for 3 days within the given constraints",
+    "metadata": {
+      "org": "Las Vegas",
+      "dest": "Stockton",
+      "days": 3,
+      "budget": 1400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_3",
+    "premise": "Craft a travel plan for me to depart from New Orleans and head to Louisville for 3 days, from March 12th to March 14th, 2022. I will be travelling alone with a budget of $1,900. Budget: $1900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from New Orleans to Louisville within budget of $1900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from New Orleans to Louisville for 3 days within the given constraints",
+    "metadata": {
+      "org": "New Orleans",
+      "dest": "Louisville",
+      "days": 3,
+      "budget": 1900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_4",
+    "premise": "Please provide me with a travel plan that departs from Las Vegas to Denver for 3 days, from March 12th to March 14th, 2022. The budget for this solo trip is $1,600. Budget: $1600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Las Vegas to Denver within budget of $1600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Las Vegas to Denver for 3 days within the given constraints",
+    "metadata": {
+      "org": "Las Vegas",
+      "dest": "Denver",
+      "days": 3,
+      "budget": 1600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_5",
+    "premise": "Could you assist in crafting a travel itinerary for a 5-day, single-person trip departing from Orlando and touring 2 cities in Texas? The travel dates should range from March 10th to March 14th, 2022, and the entire travel budget is $3,100. Budget: $3100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Orlando to Texas within budget of $3100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Orlando to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Orlando",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 3100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_6",
+    "premise": "Could you plan a 5-day solo trip for me? I'll be setting off from Santa Ana and intend to visit 2 different cities in Montana. The travel dates are from March 6th to March 10th, 2022, and my outlined budget is $3,600. I have no specific preferences about house rules, cuisine, accommodations, or transportation. Budget: $3600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Santa Ana to Montana within budget of $3600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Santa Ana to Montana for 5 days within the given constraints",
+    "metadata": {
+      "org": "Santa Ana",
+      "dest": "Montana",
+      "days": 5,
+      "budget": 3600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_7",
+    "premise": "Could you help create a 5-day travel itinerary, starting from Baton Rouge moving to 2 cities in Texas between March 1st and March 5th, 2022? This trip is for a solo traveler, who has set a budget of $2,300. Budget: $2300. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Baton Rouge to Texas within budget of $2300 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Baton Rouge to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Baton Rouge",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2300,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_8",
+    "premise": "Can you devise a travel plan that departs from Memphis and includes 2 cities in Pennsylvania? The trip is scheduled for 5 days from March 22nd to March 26th, 2022. The trip's total budget is $1,400. Budget: $1400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Memphis to Pennsylvania within budget of $1400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Memphis to Pennsylvania for 5 days within the given constraints",
+    "metadata": {
+      "org": "Memphis",
+      "dest": "Pennsylvania",
+      "days": 5,
+      "budget": 1400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_9",
+    "premise": "Can you create a 5-day travel plan for one person departing from Greer and visiting 2 cities in Pennsylvania? The travel dates are from March 5th to March 9th, 2022. The trip's budget is set at $3,400. Budget: $3400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Greer to Pennsylvania within budget of $3400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Greer to Pennsylvania for 5 days within the given constraints",
+    "metadata": {
+      "org": "Greer",
+      "dest": "Pennsylvania",
+      "days": 5,
+      "budget": 3400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_10",
+    "premise": "Could you assist in creating a travel plan for one person, starting from Houston and heading to Utah for a week? The visit will be from the 23rd of March to the 29th of March, 2022, and will cover 3 different cities in Utah. The budget for this trip is set at $7,700. Budget: $7700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Houston to Utah within budget of $7700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Utah for 7 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Utah",
+      "days": 7,
+      "budget": 7700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_11",
+    "premise": "Can you help me plan a one-week solo trip from Oklahoma City to Colorado, during which I'll be visiting 3 different cities? The trip will be from March 1st to March 7th, 2022, and I have a budget of $3,000. Budget: $3000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Oklahoma City to Colorado within budget of $3000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Oklahoma City to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Oklahoma City",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 3000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_12",
+    "premise": "Please help me plan a 7-day trip for one person, departing from Gulfport and visiting 3 cities in Texas from March 24th to March 30th, 2022. The budget for this trip is $4,200. Budget: $4200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Gulfport to Texas within budget of $4200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Gulfport to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Gulfport",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 4200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_13",
+    "premise": "Could you help me come up with a travel plan that starts in Daytona Beach and includes visits to 3 distinct cities in Texas over a span of 7 days, from March 18th to March 24th, 2022? I'll be traveling alone on a budget of $3,600. Budget: $3600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Daytona Beach to Texas within budget of $3600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Daytona Beach to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Daytona Beach",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 3600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_14",
+    "premise": "Please help me craft a 7-day travel plan. I'm planning on leaving from Punta Gorda and exploring 3 different cities in Wisconsin from March 16th to March 22nd, 2022. The budget for this trip is set at $5,700. Budget: $5700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Punta Gorda to Wisconsin within budget of $5700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Punta Gorda to Wisconsin for 7 days within the given constraints",
+    "metadata": {
+      "org": "Punta Gorda",
+      "dest": "Wisconsin",
+      "days": 7,
+      "budget": 5700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_15",
+    "premise": "Could you devise a travel plan for two departing from Fort Lauderdale and heading to Norfolk? This should span 3 days, from March 16th to March 18th, 2022, with a budget of $2,300. We have no specific accommodation restrictions. As for our culinary preferences, we enjoy both American and French cuisine. Budget: $2300. People: 2. Constraints: cuisine preference: ['American', 'French'].",
+    "causal_feature": "planning a 3-day trip from Fort Lauderdale to Norfolk within budget of $2300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Lauderdale to Norfolk for 3 days within the given constraints",
+    "metadata": {
+      "org": "Fort Lauderdale",
+      "dest": "Norfolk",
+      "days": 3,
+      "budget": 2300,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_16",
+    "premise": "Could you please arrange a 3-day trip for two, starting in Sacramento and heading to Atlanta, from March 14th to March 16th, 2022. The budget for this trip is $4,700, and we require accommodations where parties are allowed. Budget: $4700. People: 2. Constraints: house rule: parties.",
+    "causal_feature": "planning a 3-day trip from Sacramento to Atlanta within budget of $4700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sacramento to Atlanta for 3 days within the given constraints",
+    "metadata": {
+      "org": "Sacramento",
+      "dest": "Atlanta",
+      "days": 3,
+      "budget": 4700,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_17",
+    "premise": "Please create a 3-day trip itinerary for a group of 8, departing from Asheville and heading to Baltimore. The travel dates are from March 20th to March 22nd, 2022. Our budget is set at $6,500. Since we'll be traveling with young children, our accommodations must be suitable for children under 10. Budget: $6500. People: 8. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 3-day trip from Asheville to Baltimore within budget of $6500 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Asheville to Baltimore for 3 days within the given constraints",
+    "metadata": {
+      "org": "Asheville",
+      "dest": "Baltimore",
+      "days": 3,
+      "budget": 6500,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_18",
+    "premise": "Please help in creating a travel plan for two people departing from Washington and heading to Orlando for three days, between March 15th and March 17th, 2022. The budget for this trip is $2,000 and we would prefer to have private rooms for our stay. Budget: $2000. People: 2. Constraints: room type: private room.",
+    "causal_feature": "planning a 3-day trip from Washington to Orlando within budget of $2000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to Orlando for 3 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "Orlando",
+      "days": 3,
+      "budget": 2000,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_19",
+    "premise": "Please create a 3-day travel itinerary for 2 people beginning in Fort Lauderdale and ending in Milwaukee from the 8th to the 10th of March, 2022. Our travel budget is set at $1,100. We'd love to experience both American and Chinese cuisines during our journey. Budget: $1100. People: 2. Constraints: cuisine preference: ['American', 'Chinese'].",
+    "causal_feature": "planning a 3-day trip from Fort Lauderdale to Milwaukee within budget of $1100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Lauderdale to Milwaukee for 3 days within the given constraints",
+    "metadata": {
+      "org": "Fort Lauderdale",
+      "dest": "Milwaukee",
+      "days": 3,
+      "budget": 1100,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_20",
+    "premise": "Could you formulate a 5-day trip plan for a group of 6 people? We will be starting in Nashville and would like to cover 2 cities in Pennsylvania from March 12th to March 16th, 2022. Our budget is approximately $15,100, and we would like to rent entire rooms for our accommodations. Budget: $15100. People: 6. Constraints: room type: entire room.",
+    "causal_feature": "planning a 5-day trip from Nashville to Pennsylvania within budget of $15100 for 6 person(s)",
+    "hypothesis": "A valid travel plan can be created from Nashville to Pennsylvania for 5 days within the given constraints",
+    "metadata": {
+      "org": "Nashville",
+      "dest": "Pennsylvania",
+      "days": 5,
+      "budget": 15100,
+      "people": 6,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_21",
+    "premise": "Could you help create a 5-day travel itinerary for a group of 4, starting from New York and visiting 2 cities in Louisiana from March 15th to March 19th, 2022? We have a budget of $12,300. Please note that we require accommodations where smoking is permissible. Budget: $12300. People: 4. Constraints: house rule: smoking.",
+    "causal_feature": "planning a 5-day trip from New York to Louisiana within budget of $12300 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from New York to Louisiana for 5 days within the given constraints",
+    "metadata": {
+      "org": "New York",
+      "dest": "Louisiana",
+      "days": 5,
+      "budget": 12300,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_22",
+    "premise": "Can you help create a 5-day travel itinerary for a group of 7, departing from San Jose and covering 2 cities in Idaho, from March 1st to March 5th, 2022? We have a budget of $13,900. We'd love to try Indian and French cuisine on our journey. Budget: $13900. People: 7. Constraints: cuisine preference: ['Indian', 'French'].",
+    "causal_feature": "planning a 5-day trip from San Jose to Idaho within budget of $13900 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from San Jose to Idaho for 5 days within the given constraints",
+    "metadata": {
+      "org": "San Jose",
+      "dest": "Idaho",
+      "days": 5,
+      "budget": 13900,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_23",
+    "premise": "Can you provide me with a 5-day travel plan for 2 people, starting from Asheville and exploring 2 cities in New York from March 13th to March 17th, 2022? Our budget is set at $4,700 and we would love to try local Mexican and Chinese cuisines during our trip. Budget: $4700. People: 2. Constraints: cuisine preference: ['Mexican', 'Chinese'].",
+    "causal_feature": "planning a 5-day trip from Asheville to New York within budget of $4700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Asheville to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Asheville",
+      "dest": "New York",
+      "days": 5,
+      "budget": 4700,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_24",
+    "premise": "Could you draft a 5-day travel plan for a group of 4 departing from Memphis and venturing into 2 cities in Minnesota? Our travels are scheduled from March 1st to March 5th, 2022, and our budget is set at $13,800. We require accommodations that provide private rooms. Budget: $13800. People: 4. Constraints: room type: private room.",
+    "causal_feature": "planning a 5-day trip from Memphis to Minnesota within budget of $13800 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Memphis to Minnesota for 5 days within the given constraints",
+    "metadata": {
+      "org": "Memphis",
+      "dest": "Minnesota",
+      "days": 5,
+      "budget": 13800,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_25",
+    "premise": "We need a 7-day travel plan for a group of 4, taking off from Santa Ana and visiting 3 different cities in Texas from March 25th to March 31st, 2022. Our budget is set at $5,800 for the trip. Additionally, our lodging options must accommodate children under the age of 10. Budget: $5800. People: 4. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Santa Ana to Texas within budget of $5800 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Santa Ana to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Santa Ana",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 5800,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_26",
+    "premise": "We are a group of 5 looking for a 7-day travel itinerary, departing from Sault Ste. Marie towards Michigan. We plan to visit 3 different cities from March 15th to March 21st, 2022. Our budget allows us to spend up to $12,700. We require entire rooms for our stay. Could you help us with this plan? Budget: $12700. People: 5. Constraints: room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Sault Ste. Marie to Michigan within budget of $12700 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sault Ste. Marie to Michigan for 7 days within the given constraints",
+    "metadata": {
+      "org": "Sault Ste. Marie",
+      "dest": "Michigan",
+      "days": 7,
+      "budget": 12700,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_27",
+    "premise": "I need help crafting a 7-day travel plan for two individuals, departing from St. Louis and intending to visit 3 separate cities in California. The travel dates are from March 17th to March 23rd, 2022. We have a budget of $9,500 to cover all expenses. As for dining preferences, we are particularly fond of American and Chinese cuisines. Budget: $9500. People: 2. Constraints: cuisine preference: ['American', 'Chinese'].",
+    "causal_feature": "planning a 7-day trip from St. Louis to California within budget of $9500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Louis to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "St. Louis",
+      "dest": "California",
+      "days": 7,
+      "budget": 9500,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_28",
+    "premise": "We're organizing a week-long trip for 4 people, starting in Louisville and stopping in three different cities in Michigan. The trip will begin on March 8th and conclude on March 14th, 2022. Our budget is now $19,400, and we require private rooms for accommodations. Budget: $19400. People: 4. Constraints: room type: private room.",
+    "causal_feature": "planning a 7-day trip from Louisville to Michigan within budget of $19400 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Louisville to Michigan for 7 days within the given constraints",
+    "metadata": {
+      "org": "Louisville",
+      "dest": "Michigan",
+      "days": 7,
+      "budget": 19400,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_29",
+    "premise": "Could you help craft a week-long travel plan for 2 people? We'll be departing from Oakland and aim to visit 3 different cities in Oregon from March 12th to March 18th, 2022, with a total budget of $4,500. As for meals, we have a preference for Italian and Mediterranean cuisines. Budget: $4500. People: 2. Constraints: cuisine preference: ['Italian', 'Mediterranean'].",
+    "causal_feature": "planning a 7-day trip from Oakland to Oregon within budget of $4500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Oakland to Oregon for 7 days within the given constraints",
+    "metadata": {
+      "org": "Oakland",
+      "dest": "Oregon",
+      "days": 7,
+      "budget": 4500,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_30",
+    "premise": "Could you devise a 3-day travel plan for 2 people departing Houston and heading to Fayetteville from March 20th to March 22nd, 2022, with a budget of $1,500? It is vital that our accommodations allow children under the age of 10 as we will be traveling with kids. We prefer non-self-driving transportation and expect to experience a blend of American, Mediterranean, French, and Chinese cuisines during our stay. Budget: $1500. People: 2. Constraints: house rule: children under 10, cuisine preference: ['American', 'Mediterranean', 'French', 'Chinese'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Houston to Fayetteville within budget of $1500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Fayetteville for 3 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Fayetteville",
+      "days": 3,
+      "budget": 1500,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_31",
+    "premise": "Could you generate a 3-day travel plan for a group of 3 people, departing from Bangor and visiting Washington from March 21st to March 23rd, 2022? Our budget is set at $3,100. We require accommodations that are pet-friendly and we would prefer to have entire rooms to ourselves. We do not plan on self-driving for this trip. Budget: $3100. People: 3. Constraints: house rule: pets, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Bangor to Washington within budget of $3100 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Bangor to Washington for 3 days within the given constraints",
+    "metadata": {
+      "org": "Bangor",
+      "dest": "Washington",
+      "days": 3,
+      "budget": 3100,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_32",
+    "premise": "Could you help arrange a 3-day travel plan from Grand Forks to Minneapolis for 2 people from March 17th to March 19th, 2022? We have a budget of $1,300. For our stay, we require accommodations that are conducive to hosting parties and should ideally be entire rooms. We would prefer a journey that does not involve flying. Budget: $1300. People: 2. Constraints: house rule: parties, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from Grand Forks to Minneapolis within budget of $1300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Grand Forks to Minneapolis for 3 days within the given constraints",
+    "metadata": {
+      "org": "Grand Forks",
+      "dest": "Minneapolis",
+      "days": 3,
+      "budget": 1300,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_33",
+    "premise": "Could you create a travel plan starting from Provo to Phoenix for 2 people, from March 24th to March 26th, 2022? Our budget is set at $1,400. We'll be bringing our pets along, so accommodations with pet-friendly house rules would be preferred. We intend to stay in private rooms. In terms of food, we'd like to have a variety of cuisines, including Indian, American, French, and Italian. Budget: $1400. People: 2. Constraints: house rule: pets, cuisine preference: ['Indian', 'American', 'French', 'Italian'], room type: private room.",
+    "causal_feature": "planning a 3-day trip from Provo to Phoenix within budget of $1400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Provo to Phoenix for 3 days within the given constraints",
+    "metadata": {
+      "org": "Provo",
+      "dest": "Phoenix",
+      "days": 3,
+      "budget": 1400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_34",
+    "premise": "Could you prepare a 3-day travel plan departing from Atlanta and heading to Chattanooga for a group of 5 people, spanning March 7th to March 9th, 2022? Our budget is set at $3,600. We'd love to try French, Mediterranean, Indian, and Chinese cuisines during our trip. We require accommodations that should ideally be entire rooms. Please note that we do not plan to drive ourselves during this trip. Budget: $3600. People: 5. Constraints: cuisine preference: ['French', 'Mediterranean', 'Indian', 'Chinese'], room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Atlanta to Chattanooga within budget of $3600 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Atlanta to Chattanooga for 3 days within the given constraints",
+    "metadata": {
+      "org": "Atlanta",
+      "dest": "Chattanooga",
+      "days": 3,
+      "budget": 3600,
+      "people": 5,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_35",
+    "premise": "Can you create a 5-day travel itinerary for a group of 3, departing from Atlanta and visiting 2 cities in Minnesota from March 3rd to March 7th, 2022? We have a budget of $7,900. We require accommodations that allow parties and should ideally be entire rooms. Although we don't plan to self-drive, we would like the flexibility to host parties. Budget: $7900. People: 3. Constraints: house rule: parties, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Atlanta to Minnesota within budget of $7900 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Atlanta to Minnesota for 5 days within the given constraints",
+    "metadata": {
+      "org": "Atlanta",
+      "dest": "Minnesota",
+      "days": 5,
+      "budget": 7900,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_36",
+    "premise": "Can you create a 5-day itinerary for a group of 7 people traveling from Richmond to two cities in Florida between March 9th and 13th, 2022? Our budget is $8,500. We require accommodations that allow visitors and should ideally be entire rooms. In regards to dining options, we prefer French, American, Mediterranean, and Italian cuisines. Budget: $8500. People: 7. Constraints: house rule: visitors, cuisine preference: ['French', 'American', 'Mediterranean', 'Italian'], room type: entire room.",
+    "causal_feature": "planning a 5-day trip from Richmond to Florida within budget of $8500 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Richmond to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "Richmond",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 8500,
+      "people": 7,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_37",
+    "premise": "Can you assist in creating a 5-day travel itinerary starting in Sacramento and covering 2 cities in Washington state from March 22nd to March 26th, 2022? The journey will be for a group of three with a budget of $3,600. We require accommodations that provide entire rooms and do not plan to travel by flight. As far as cuisines are concerned, we'd love to experience American, Mediterranean, Italian, and French during our trip. Budget: $3600. People: 3. Constraints: cuisine preference: ['American', 'Mediterranean', 'Italian', 'French'], room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Sacramento to Washington within budget of $3600 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sacramento to Washington for 5 days within the given constraints",
+    "metadata": {
+      "org": "Sacramento",
+      "dest": "Washington",
+      "days": 5,
+      "budget": 3600,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_38",
+    "premise": "Could you help with creating a 5-day travel plan for 2 people, originating from Evansville and covering 2 cities in Texas from March 17th to March 21st, 2022? Our preferred accommodations are private rooms, and they must permit children under 10 since we will have them with us. Transportation should not involve any flights. The budget for this trip is set at $2,800. Budget: $2800. People: 2. Constraints: house rule: children under 10, room type: private room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Evansville to Texas within budget of $2800 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Evansville to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Evansville",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2800,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_39",
+    "premise": "Could you formulate a 5-day travel plan for a group of 5? We'll be starting in Denver and wish to visit 2 cities in Texas from March 8th to March 12th, 2022. We have a budget of $7,100. Our accommodations must allow smoking. In terms of food, we are open to a variety of cuisines, including American, French, Mediterranean, and Italian. It's imperative that our journey does not involve any flights for transportation. Budget: $7100. People: 5. Constraints: house rule: smoking, cuisine preference: ['American', 'French', 'Mediterranean', 'Italian'], transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Denver to Texas within budget of $7100 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 7100,
+      "people": 5,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_40",
+    "premise": "Can you help with generating a 7-day travel plan for a party of 5? We're setting off from Indianapolis and planning to explore 3 cities in Colorado from March 11th to March 17th, 2022. We have a budget of $15,100 for this trip. We'll be bringing our pets, so pet-friendly accommodations are a must. We're also hoping to find places that offer Mexican, Italian, Mediterranean, and Indian cuisines. Entire rooms for accommodations would be ideal. Budget: $15100. People: 5. Constraints: house rule: pets, cuisine preference: ['Mexican', 'Italian', 'Mediterranean', 'Indian'], room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Indianapolis to Colorado within budget of $15100 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Indianapolis to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Indianapolis",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 15100,
+      "people": 5,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_41",
+    "premise": "Can you assist in creating a travel itinerary for a group of 4, starting in Seattle and visiting 3 unique cities across Texas? This trip will span over 7 days from March 10th through March 16th, 2022. We have a budget of $11,000. Regarding our accommodations, we would like to rent entire rooms, and it's important that our lodgings allow parties. As for transportation, we do not plan to drive ourselves around. Budget: $11000. People: 4. Constraints: house rule: parties, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Seattle to Texas within budget of $11000 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Seattle to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Seattle",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 11000,
+      "people": 4,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_42",
+    "premise": "We are planning a 7-day trip for two, leaving from Greensboro to visit 3 cities in New York. We will be traveling from March 20th to March 26th, 2022. Our budget for this trip is $3,800. As far as accommodations are concerned, we would like entire rooms to ourselves. We will not be taking any flights for transportation. We are food lovers and would like to experience Chinese, French, American, and Indian cuisines during our visit. Budget: $3800. People: 2. Constraints: cuisine preference: ['Chinese', 'French', 'American', 'Indian'], room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Greensboro to New York within budget of $3800 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Greensboro to New York for 7 days within the given constraints",
+    "metadata": {
+      "org": "Greensboro",
+      "dest": "New York",
+      "days": 7,
+      "budget": 3800,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_43",
+    "premise": "Could you devise a 7-day travel itinerary for a pair, departing from Moline and heading to Texas, during which we will visit 3 different cities? The travel dates are scheduled from March 19th to March 25th, 2022. Our revised budget is set at $5,500. For our accommodations, we would prefer to have entire rooms. We intend to avoid any flights for our transportation. Regarding meals, we have a preference for a variety of cuisines, including American, Chinese, Mexican, and French. Budget: $5500. People: 2. Constraints: cuisine preference: ['Chinese', 'American', 'Mexican', 'French'], room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Moline to Texas within budget of $5500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Moline to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Moline",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 5500,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_44",
+    "premise": "We require a 7-day travel itinerary for two leaving from Minneapolis and covering three cities in Ohio, starting from March 17th to March 23rd, 2022. Our budget is up to $5,100. We will be accompanied by our pets, so we need pet-friendly accommodations. Our meals should preferably include American, Mediterranean, Chinese, and Italian cuisines. Please note we prefer not to take any flights so our travel plan should not include them. Budget: $5100. People: 2. Constraints: house rule: pets, cuisine preference: ['American', 'Mediterranean', 'Chinese', 'Italian'], transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Minneapolis to Ohio within budget of $5100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to Ohio for 7 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "Ohio",
+      "days": 7,
+      "budget": 5100,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_45",
+    "premise": "Please create a travel plan for me where I'll be departing from Washington and heading to Myrtle Beach for a 3-day trip from March 13th to March 15th, 2022. Can you help me keep this journey within a budget of $1,400? Budget: $1400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Washington to Myrtle Beach within budget of $1400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to Myrtle Beach for 3 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "Myrtle Beach",
+      "days": 3,
+      "budget": 1400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_46",
+    "premise": "Please draw up a 3-day travel itinerary for one person, beginning in Oakland and heading to Tucson from March 15th to March 17th, 2022, with a budget of $1,400. Budget: $1400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Oakland to Tucson within budget of $1400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Oakland to Tucson for 3 days within the given constraints",
+    "metadata": {
+      "org": "Oakland",
+      "dest": "Tucson",
+      "days": 3,
+      "budget": 1400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_47",
+    "premise": "Can you help me with a travel plan departing from Buffalo to Atlanta for a duration of 3 days, specifically from March 2nd to March 4th, 2022? I plan to travel alone and my planned budget for the trip is around $1,100. Budget: $1100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Buffalo to Atlanta within budget of $1100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Buffalo to Atlanta for 3 days within the given constraints",
+    "metadata": {
+      "org": "Buffalo",
+      "dest": "Atlanta",
+      "days": 3,
+      "budget": 1100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_48",
+    "premise": "Could you arrange a 3-day solo trip for me starting from Ontario and heading to Honolulu spanning from March 4th to March 6th, 2022, with a total budget of $3,200? Budget: $3200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Ontario to Honolulu within budget of $3200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Ontario to Honolulu for 3 days within the given constraints",
+    "metadata": {
+      "org": "Ontario",
+      "dest": "Honolulu",
+      "days": 3,
+      "budget": 3200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_49",
+    "premise": "Please assist me in devising a travel plan that departs from West Palm Beach and heads to Atlanta, lasting 3 days from March 13th, 2022 to March 15th, 2022. It should accommodate 1 person and adhere to a budget of $900. Budget: $900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from West Palm Beach to Atlanta within budget of $900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from West Palm Beach to Atlanta for 3 days within the given constraints",
+    "metadata": {
+      "org": "West Palm Beach",
+      "dest": "Atlanta",
+      "days": 3,
+      "budget": 900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_50",
+    "premise": "Please assist in crafting a travel plan for a solo traveller, journeying from Detroit to San Diego for 3 days, from March 5th to March 7th, 2022. The travel plan should accommodate a total budget of $3,000. Budget: $3000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Detroit to San Diego within budget of $3000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Detroit to San Diego for 3 days within the given constraints",
+    "metadata": {
+      "org": "Detroit",
+      "dest": "San Diego",
+      "days": 3,
+      "budget": 3000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_51",
+    "premise": "Please create a travel plan for a 3-day trip from Missoula to Dallas scheduled from March 23rd to March 25th, 2022. The budget for this trip is set at $1,900. Budget: $1900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Missoula to Dallas within budget of $1900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Missoula to Dallas for 3 days within the given constraints",
+    "metadata": {
+      "org": "Missoula",
+      "dest": "Dallas",
+      "days": 3,
+      "budget": 1900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_52",
+    "premise": "Could you arrange a 3-day travel from Boston to San Juan, Puerto Rico, for one person between March 28th and March 30th, 2022? The budget for this trip is set to $1,400. Budget: $1400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Boston to San Juan within budget of $1400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Boston to San Juan for 3 days within the given constraints",
+    "metadata": {
+      "org": "Boston",
+      "dest": "San Juan",
+      "days": 3,
+      "budget": 1400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_53",
+    "premise": "Can you help me plan a trip that begins in Sarasota and ends in Philadelphia? The trip should span over 3 days, from March 2nd to March 4th, 2022, and adhere to a budget of $2,100. Budget: $2100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Sarasota to Philadelphia within budget of $2100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sarasota to Philadelphia for 3 days within the given constraints",
+    "metadata": {
+      "org": "Sarasota",
+      "dest": "Philadelphia",
+      "days": 3,
+      "budget": 2100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_54",
+    "premise": "Could you help me create a travel plan starting from Minneapolis to St. Louis, spanning 3 days from March 15th to March 17th, 2022? The budget is set at $1,000. Budget: $1000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Minneapolis to St. Louis within budget of $1000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to St. Louis for 3 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "St. Louis",
+      "days": 3,
+      "budget": 1000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_55",
+    "premise": "Please create a travel plan departing from Minneapolis and heading to Seattle for 3 days, from March 29th to March 31st, 2022, with a budget of $1,800. Budget: $1800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Minneapolis to Seattle within budget of $1800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to Seattle for 3 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "Seattle",
+      "days": 3,
+      "budget": 1800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_56",
+    "premise": "Please devise a travel plan that starts from St. Petersburg and heads to Appleton, taking place across 3 days from March 19th to March 21st, 2022. This itinerary is for an individual, with a budget allocated at $1,200. Budget: $1200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from St. Petersburg to Appleton within budget of $1200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Petersburg to Appleton for 3 days within the given constraints",
+    "metadata": {
+      "org": "St. Petersburg",
+      "dest": "Appleton",
+      "days": 3,
+      "budget": 1200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_57",
+    "premise": "Can you assist with a travel plan for one person departing from Pittsburgh to Baltimore for 3 days, from March 4th to March 6th, 2022, with a maximum budget of $1,200? Budget: $1200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Pittsburgh to Baltimore within budget of $1200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Pittsburgh to Baltimore for 3 days within the given constraints",
+    "metadata": {
+      "org": "Pittsburgh",
+      "dest": "Baltimore",
+      "days": 3,
+      "budget": 1200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_58",
+    "premise": "Could you arrange a travel plan for me starting from Denver and going to Appleton for 3 days, specifically from March 4th to March 6th, 2022? I'm traveling alone and I have a budget of $1,800 for this trip. Budget: $1800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Denver to Appleton within budget of $1800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to Appleton for 3 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "Appleton",
+      "days": 3,
+      "budget": 1800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_59",
+    "premise": "Please arrange a 3-day trip for me departing from St. Louis and visiting Las Vegas from March 29th to March 31st, 2022. My budget for this journey is $1,300. Budget: $1300. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from St. Louis to Las Vegas within budget of $1300 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Louis to Las Vegas for 3 days within the given constraints",
+    "metadata": {
+      "org": "St. Louis",
+      "dest": "Las Vegas",
+      "days": 3,
+      "budget": 1300,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_60",
+    "premise": "Could you help me organize a 3-day journey from Spokane to San Francisco from March 3rd to March 5th, 2022? This trip is for 1 person with a budget of $1,200. Budget: $1200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Spokane to San Francisco within budget of $1200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Spokane to San Francisco for 3 days within the given constraints",
+    "metadata": {
+      "org": "Spokane",
+      "dest": "San Francisco",
+      "days": 3,
+      "budget": 1200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_61",
+    "premise": "Can you help draft a 3-day travel plan, starting on March 1st, 2022 and ending on March 3rd, 2022, for one person departing from St. Louis and heading to Washington with a budget of $1,500? Budget: $1500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from St. Louis to Washington within budget of $1500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Louis to Washington for 3 days within the given constraints",
+    "metadata": {
+      "org": "St. Louis",
+      "dest": "Washington",
+      "days": 3,
+      "budget": 1500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_62",
+    "premise": "Could you design a 3-day travel itinerary from Denver to Palm Springs for 1 person? The travel should span from March 27th to March 29th, 2022. The travel budget is set at $2,200. No specific local constraints are given. Budget: $2200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Denver to Palm Springs within budget of $2200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to Palm Springs for 3 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "Palm Springs",
+      "days": 3,
+      "budget": 2200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_63",
+    "premise": "Could you assist in creating a travel plan for one person departing from Seattle and visiting San Francisco for 3 days, from March 21st to March 23rd, 2022? The new budget is $900. Budget: $900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Seattle to San Francisco within budget of $900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Seattle to San Francisco for 3 days within the given constraints",
+    "metadata": {
+      "org": "Seattle",
+      "dest": "San Francisco",
+      "days": 3,
+      "budget": 900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_64",
+    "premise": "Could you assist with a 3-day travel itinerary starting from Providence to Orlando, with a visit planned to only one city? The travel dates are from March 24th to March 26th, 2022, and the budget for the trip should not exceed $1,800. Budget: $1800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 3-day trip from Providence to Orlando within budget of $1800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Providence to Orlando for 3 days within the given constraints",
+    "metadata": {
+      "org": "Providence",
+      "dest": "Orlando",
+      "days": 3,
+      "budget": 1800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_65",
+    "premise": "Could you help create a travel itinerary for a solo trip departing from St. Louis and covering 2 cities in Florida over the course of 5 days, from March 15th to March 19th, 2022? The travel budget is set at $2,900. Budget: $2900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from St. Louis to Florida within budget of $2900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Louis to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "St. Louis",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 2900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_66",
+    "premise": "Can you help craft a 5-day travel plan that starts in Colorado Springs and takes in 2 cities in Illinois from March 5th to March 9th, 2022? Single traveler with an overall budget of $1,900. Budget: $1900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Colorado Springs to Illinois within budget of $1900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Colorado Springs to Illinois for 5 days within the given constraints",
+    "metadata": {
+      "org": "Colorado Springs",
+      "dest": "Illinois",
+      "days": 5,
+      "budget": 1900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_67",
+    "premise": "Could you create a 5-day travel plan for one person departing from Little Rock and visiting 2 cities in Texas from March 14th to March 18th, 2022? The budget for this trip is set at $3,900. Budget: $3900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Little Rock to Texas within budget of $3900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Little Rock to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Little Rock",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 3900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_68",
+    "premise": "Could you arrange a 5-day trip for one person, starting from Latrobe and covering two cities in South Carolina from the dates of March 2nd to March 6th, 2022? My budget is set at $4,200. Budget: $4200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Latrobe to South Carolina within budget of $4200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Latrobe to South Carolina for 5 days within the given constraints",
+    "metadata": {
+      "org": "Latrobe",
+      "dest": "South Carolina",
+      "days": 5,
+      "budget": 4200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_69",
+    "premise": "Can you create a 5-day travel itinerary for a solo trip starting from Jacksonville and visiting 2 cities in Michigan? The trip should be from March 25th to March 29th, 2022, and I have a budget of $4,600. Budget: $4600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Jacksonville to Michigan within budget of $4600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Jacksonville to Michigan for 5 days within the given constraints",
+    "metadata": {
+      "org": "Jacksonville",
+      "dest": "Michigan",
+      "days": 5,
+      "budget": 4600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_70",
+    "premise": "Could you construct a 5-day travel itinerary for a solo traveler starting in Orlando and visiting 2 cities in Illinois, spanning the dates from March 2nd to March 6th, 2022? The budget for the trip is set to $2,700. Budget: $2700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Orlando to Illinois within budget of $2700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Orlando to Illinois for 5 days within the given constraints",
+    "metadata": {
+      "org": "Orlando",
+      "dest": "Illinois",
+      "days": 5,
+      "budget": 2700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_71",
+    "premise": "Can you create a 5-day travel plan for me that begins in Billings and includes visits to 2 cities in Minnesota? The journey should take place from March 6th to March 10th, 2022, with a budget of $4,000. Budget: $4000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Billings to Minnesota within budget of $4000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Billings to Minnesota for 5 days within the given constraints",
+    "metadata": {
+      "org": "Billings",
+      "dest": "Minnesota",
+      "days": 5,
+      "budget": 4000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_72",
+    "premise": "Could you create a 5-day travel plan for me, beginning in Washington, visiting 2 cities in Virginia from March 15th to March 19th, 2022? I have a budget of $2,200 for this trip. Budget: $2200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Washington to Virginia within budget of $2200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to Virginia for 5 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "Virginia",
+      "days": 5,
+      "budget": 2200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_73",
+    "premise": "Can you assist in crafting a travel schedule departing from Richmond and traveling to 2 cities in Tennessee? The journey will last 5 days, starting on March 5th and concluding on March 9th, 2022. The travel budget is set at $2,600. Budget: $2600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Richmond to Tennessee within budget of $2600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Richmond to Tennessee for 5 days within the given constraints",
+    "metadata": {
+      "org": "Richmond",
+      "dest": "Tennessee",
+      "days": 5,
+      "budget": 2600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_74",
+    "premise": "Can you help me devise a travel plan that begins in Key West and covers 2 cities in Indiana? The travel dates are from March 10th to March 14th, 2022, and the budget for the trip is $2,000. Budget: $2000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Key West to Indiana within budget of $2000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Key West to Indiana for 5 days within the given constraints",
+    "metadata": {
+      "org": "Key West",
+      "dest": "Indiana",
+      "days": 5,
+      "budget": 2000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_75",
+    "premise": "Can you help me devise a 5-day travel plan starting from Cedar Rapids and covering 2 cities in Colorado from March 23rd to March 27th, 2022? This journey is for one person with a budget of $4,300. Budget: $4300. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Cedar Rapids to Colorado within budget of $4300 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Cedar Rapids to Colorado for 5 days within the given constraints",
+    "metadata": {
+      "org": "Cedar Rapids",
+      "dest": "Colorado",
+      "days": 5,
+      "budget": 4300,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_76",
+    "premise": "Can you assist in creating a 5-day long itinerary? I am planning to leave Omaha on March 2nd, 2022, visit 2 different cities in Washington, and return by March 6th, 2022. I will be traveling alone with a budget set to $5,000. Budget: $5000. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Omaha to Washington within budget of $5000 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Omaha to Washington for 5 days within the given constraints",
+    "metadata": {
+      "org": "Omaha",
+      "dest": "Washington",
+      "days": 5,
+      "budget": 5000,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_77",
+    "premise": "Could you aid in curating a 5-day travel plan for one person beginning in Denver and planning to visit 2 cities in Washington from March 23rd to March 27th, 2022? The budget for this trip is now set at $4,200. Budget: $4200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Denver to Washington within budget of $4200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to Washington for 5 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "Washington",
+      "days": 5,
+      "budget": 4200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_78",
+    "premise": "Could you put together a 5-day travel plan starting in Charlotte and visiting 2 cities in New Jersey? The dates of travel are from March 6th to March 10th, 2022, and I have a budget of $4,200. Budget: $4200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Charlotte to New Jersey within budget of $4200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Charlotte to New Jersey for 5 days within the given constraints",
+    "metadata": {
+      "org": "Charlotte",
+      "dest": "New Jersey",
+      "days": 5,
+      "budget": 4200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_79",
+    "premise": "Can you curate a 5-day travel itinerary for one person starting in Gainesville and visiting 2 cities in North Carolina, from March 23rd to March 27th, 2022? The budget for this plan is set at $2,900. Budget: $2900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Gainesville to North Carolina within budget of $2900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Gainesville to North Carolina for 5 days within the given constraints",
+    "metadata": {
+      "org": "Gainesville",
+      "dest": "North Carolina",
+      "days": 5,
+      "budget": 2900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_80",
+    "premise": "Could you please create a 5-day travel plan for me, starting from Los Angeles and visiting 2 cities in Colorado between March 13th and March 17th, 2022? My budget for the trip is $4,700. Budget: $4700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Los Angeles to Colorado within budget of $4700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Los Angeles to Colorado for 5 days within the given constraints",
+    "metadata": {
+      "org": "Los Angeles",
+      "dest": "Colorado",
+      "days": 5,
+      "budget": 4700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_81",
+    "premise": "Could you please create a 5-day travel itinerary for one person, starting in Albuquerque and visiting 2 cities in Texas from March 25th to March 29th, 2022? The travel plan should work within a budget of $2,100. Budget: $2100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Albuquerque to Texas within budget of $2100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Albuquerque to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Albuquerque",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_82",
+    "premise": "Could you create a travel plan for a solo traveler starting from Birmingham and visiting 2 cities in Florida, for a duration of 5 days, from March 26th to March 30th, 2022? The allotted budget for this trip is $3,500. Budget: $3500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Birmingham to Florida within budget of $3500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Birmingham to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "Birmingham",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 3500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_83",
+    "premise": "Could you organize a 5-day travel plan leaving from Killeen and visiting 2 cities in Texas from March 3rd to March 7th, 2022, for one person? The budget for this trip is set at $3,500. Budget: $3500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Killeen to Texas within budget of $3500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Killeen to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Killeen",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 3500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_84",
+    "premise": "Can you create a 5-day travel plan for me starting in Sun Valley and visiting 2 cities in California from March 22nd to March 26th, 2022? My budget for this trip is $2,600. Budget: $2600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 5-day trip from Sun Valley to California within budget of $2600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sun Valley to California for 5 days within the given constraints",
+    "metadata": {
+      "org": "Sun Valley",
+      "dest": "California",
+      "days": 5,
+      "budget": 2600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_85",
+    "premise": "Can you help construct a travel plan that begins in Philadelphia and includes visits to 3 different cities in Virginia? The trip duration is for 7 days, from March 15th to March 21st, 2022, with a total budget of $1,800. Budget: $1800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Philadelphia to Virginia within budget of $1800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Philadelphia to Virginia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Philadelphia",
+      "dest": "Virginia",
+      "days": 7,
+      "budget": 1800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_86",
+    "premise": "Could you construct a week-long travel plan for me, beginning in Bakersfield and heading to Texas? This journey spans from March 2nd to March 8th, 2022, and I am aiming to explore 3 unique cities. I have set aside a budget of $6,100 for this trip. Budget: $6100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Bakersfield to Texas within budget of $6100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Bakersfield to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Bakersfield",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 6100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_87",
+    "premise": "Could you help me arrange a 7-day solo travel itinerary from Kona to California with a budget of $5,800, intending to visit 3 distinct cities in California from March 7th to March 13th, 2022? Budget: $5800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Kona to California within budget of $5800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Kona to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "Kona",
+      "dest": "California",
+      "days": 7,
+      "budget": 5800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_88",
+    "premise": "Can you assist in devising a 7-day trip for one person, commencing in Medford and involving visits to 3 distinct cities in Colorado from March 23rd to March 29th, 2022? The budget for this trip is set at $2,400. Budget: $2400. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Medford to Colorado within budget of $2400 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Medford to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Medford",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 2400,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_89",
+    "premise": "Could you help me design a one-week travel itinerary departing from Devils Lake and heading to Colorado, covering a total of 3 cities? The travel dates are set between March 22nd and March 28th, 2022. This trip is for a single person with a budget of $3,500. Budget: $3500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Devils Lake to Colorado within budget of $3500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Devils Lake to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Devils Lake",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 3500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_90",
+    "premise": "Please help me craft a 7-day travel plan for one person departing from Charlotte in North Carolina, visiting 3 cities in Pennsylvania. The travel dates are from March 6th to March 12th, 2022. The allocated budget for this trip is $5,100. Budget: $5100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Charlotte to Pennsylvania within budget of $5100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Charlotte to Pennsylvania for 7 days within the given constraints",
+    "metadata": {
+      "org": "Charlotte",
+      "dest": "Pennsylvania",
+      "days": 7,
+      "budget": 5100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_91",
+    "premise": "Could you assist me in creating a travel plan from Palm Springs to Texas that spans 7 days, visiting 3 cities from March 13th to March 19th, 2022? I have set aside a budget of $8,100 for this trip. Budget: $8100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Palm Springs to Texas within budget of $8100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Palm Springs to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Palm Springs",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 8100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_92",
+    "premise": "I require a travel itinerary for a seven-day trip beginning on March 2nd and ending on March 8th, 2022. The trip will begin in Philadelphia and involve visiting 3 cities in Virginia. The available budget for the trip is $2,900. Budget: $2900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Philadelphia to Virginia within budget of $2900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Philadelphia to Virginia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Philadelphia",
+      "dest": "Virginia",
+      "days": 7,
+      "budget": 2900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_93",
+    "premise": "Could you formulate a travel itinerary for me? I'm planning a solo trip from Dallas to Nebraska for 7 days, from March 7th to March 13th, 2022. During this trip, I wish to visit 3 different cities within Nebraska. My budget for this trip is $5,600. Budget: $5600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Dallas to Nebraska within budget of $5600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Dallas to Nebraska for 7 days within the given constraints",
+    "metadata": {
+      "org": "Dallas",
+      "dest": "Nebraska",
+      "days": 7,
+      "budget": 5600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_94",
+    "premise": "Can you devise a week-long travel plan for a solo traveler? The trip takes off from Columbus and involves visiting 3 distinct cities in Texas from March 1st to March 7th, 2022. The budget for this venture is set at $4,200. Budget: $4200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Columbus to Texas within budget of $4200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Columbus to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Columbus",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 4200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_95",
+    "premise": "Could you assist in creating a week-long travel plan for one person, starting from Indianapolis and venturing through 3 cities in North Carolina from March 7th to March 13th, 2022? The planned budget for the trip is $6,500. Budget: $6500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Indianapolis to North Carolina within budget of $6500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Indianapolis to North Carolina for 7 days within the given constraints",
+    "metadata": {
+      "org": "Indianapolis",
+      "dest": "North Carolina",
+      "days": 7,
+      "budget": 6500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_96",
+    "premise": "Could you help create a 7-day travel plan for one person departing from Wichita to Colorado that includes visiting 3 cities? The travel dates are from March 7th to March 13th, 2022, and the travel budget is $5,900. Budget: $5900. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Wichita to Colorado within budget of $5900 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Wichita to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Wichita",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 5900,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_97",
+    "premise": "Please assist in creating a 7-day travel plan for a solo traveler, starting from Augusta and venturing through 3 different cities in Texas. This journey will occur from March 5th to March 11th, 2022, with a total budget of $4,100. Budget: $4100. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Augusta to Texas within budget of $4100 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Augusta to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Augusta",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 4100,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_98",
+    "premise": "Could you generate a 7-day travel plan for me? I'll be leaving from Savannah and plan to visit 3 different cities in Texas from March 24th to March 30th, 2022. My budget for the entire trip is $3,200. Budget: $3200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Savannah to Texas within budget of $3200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Savannah to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Savannah",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 3200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_99",
+    "premise": "Could you help me create a 7-day travel plan starting on March 18th, 2022, and ending on March 24th, 2022? The trip will start in Washington and I would like to visit 3 cities in Minnesota. This trip is for one person with a budget of $7,200. Budget: $7200. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Washington to Minnesota within budget of $7200 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to Minnesota for 7 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "Minnesota",
+      "days": 7,
+      "budget": 7200,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_100",
+    "premise": "I need to plan a 7-day solo trip starting in Los Angeles and including visits to 3 different cities in Florida, from March 22nd to March 28th, 2022. The budget for this trip should not exceed $4,700. Budget: $4700. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Los Angeles to Florida within budget of $4700 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Los Angeles to Florida for 7 days within the given constraints",
+    "metadata": {
+      "org": "Los Angeles",
+      "dest": "Florida",
+      "days": 7,
+      "budget": 4700,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_101",
+    "premise": "Could you assist in creating a 7-day travel itinerary, which begins in Kona and includes visits to 3 different cities in California? The travel dates are from March 10th to March 16th, 2022, with a total travel expense of approximately $2,500. Budget: $2500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Kona to California within budget of $2500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Kona to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "Kona",
+      "dest": "California",
+      "days": 7,
+      "budget": 2500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_102",
+    "premise": "I need assistance in planning a 7-day journey beginning from Louisville, aiming to experience 3 different cities within Florida. The proposed dates are between March 23rd and March 29th, 2022, and I have a new budget of $7,800. Budget: $7800. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Louisville to Florida within budget of $7800 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Louisville to Florida for 7 days within the given constraints",
+    "metadata": {
+      "org": "Louisville",
+      "dest": "Florida",
+      "days": 7,
+      "budget": 7800,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_103",
+    "premise": "Please assist in devising a week-long travel plan, beginning in Jacksonville and venturing through 3 distinct cities in Massachusetts from March 22nd to March 28th, 2022. The budget for this solo journey is set at $6,600. Budget: $6600. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Jacksonville to Massachusetts within budget of $6600 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Jacksonville to Massachusetts for 7 days within the given constraints",
+    "metadata": {
+      "org": "Jacksonville",
+      "dest": "Massachusetts",
+      "days": 7,
+      "budget": 6600,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_104",
+    "premise": "Could you assist in planning a 7-day trip for one person starting from Billings and visiting 3 cities in Texas between March 25th and March 31st, 2022? The budget for this trip is set at $8,500. Budget: $8500. People: 1. Constraints: no specific constraints.",
+    "causal_feature": "planning a 7-day trip from Billings to Texas within budget of $8500 for 1 person(s)",
+    "hypothesis": "A valid travel plan can be created from Billings to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Billings",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 8500,
+      "people": 1,
+      "level": "easy"
+    }
+  },
+  {
+    "id": "travelplanner_105",
+    "premise": "Could you construct a 3-day travel plan, starting in New York and ending in Reno, for 4 people, including children under 10, from March 14th to March 16th, 2022? Our budget for this trip is set at $11,300. We require accommodations suitable for children under 10. Budget: $11300. People: 4. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 3-day trip from New York to Reno within budget of $11300 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from New York to Reno for 3 days within the given constraints",
+    "metadata": {
+      "org": "New York",
+      "dest": "Reno",
+      "days": 3,
+      "budget": 11300,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_106",
+    "premise": "Please create a 3-day travel plan for two people, starting from Milwaukee and heading to New York. We are planning to visit from March 24th to March 26th, 2022. We have a budget of $1,900 and prefer to have non-shared rooms for our accommodations. Budget: $1900. People: 2. Constraints: room type: not shared room.",
+    "causal_feature": "planning a 3-day trip from Milwaukee to New York within budget of $1900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Milwaukee to New York for 3 days within the given constraints",
+    "metadata": {
+      "org": "Milwaukee",
+      "dest": "New York",
+      "days": 3,
+      "budget": 1900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_107",
+    "premise": "Can you help me put together a 3-day travel plan for 2 people, departing from Salt Lake City and heading to Twin Falls, taking place from March 25th to March 27th, 2022? Our budget is $1,600. Regarding dining options, we are interested in enjoying both Chinese and Mexican meals. Budget: $1600. People: 2. Constraints: cuisine preference: ['Chinese', 'Mexican'].",
+    "causal_feature": "planning a 3-day trip from Salt Lake City to Twin Falls within budget of $1600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Salt Lake City to Twin Falls for 3 days within the given constraints",
+    "metadata": {
+      "org": "Salt Lake City",
+      "dest": "Twin Falls",
+      "days": 3,
+      "budget": 1600,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_108",
+    "premise": "Please plan a 3-day trip for a group of 7 people from Salt Lake City to Burbank, with the journey taking place from March 12th to March 14th, 2022. During our time in Burbank, we wish to visit a solitary city. Our new budget is $7,600 for the trip. For accommodations, we would like to have entire rooms. Budget: $7600. People: 7. Constraints: room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Salt Lake City to Burbank within budget of $7600 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Salt Lake City to Burbank for 3 days within the given constraints",
+    "metadata": {
+      "org": "Salt Lake City",
+      "dest": "Burbank",
+      "days": 3,
+      "budget": 7600,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_109",
+    "premise": "Can you curate a travel plan spanning 3 days from March 17th to March 19th, 2022, for a group of 8, departing from Denver and heading to Bozeman? Our budget is set at $7,000. Regarding our culinary preferences, we enjoy American and Indian cuisines. Budget: $7000. People: 8. Constraints: cuisine preference: ['American', 'Indian'].",
+    "causal_feature": "planning a 3-day trip from Denver to Bozeman within budget of $7000 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to Bozeman for 3 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "Bozeman",
+      "days": 3,
+      "budget": 7000,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_110",
+    "premise": "Could you please design a 3-day travel plan for a group of 5, departing from Manchester and heading to Charlotte, from March 29th to March 31st, 2022? Our budget is set at $4,800 and we would prefer to have entire rooms for our accommodations. Budget: $4800. People: 5. Constraints: room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Manchester to Charlotte within budget of $4800 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Manchester to Charlotte for 3 days within the given constraints",
+    "metadata": {
+      "org": "Manchester",
+      "dest": "Charlotte",
+      "days": 3,
+      "budget": 4800,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_111",
+    "premise": "Can you assist in creating a travel itinerary departing Baton Rouge and heading to Dallas for a duration of 3 days, from March 25th to March 27th, 2022? The plan will be for a group of 4 people and will have a total budget of $5,500. It's crucial for us to find accommodations where smoking is permitted as that's one of our requirements. Budget: $5500. People: 4. Constraints: house rule: smoking.",
+    "causal_feature": "planning a 3-day trip from Baton Rouge to Dallas within budget of $5500 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Baton Rouge to Dallas for 3 days within the given constraints",
+    "metadata": {
+      "org": "Baton Rouge",
+      "dest": "Dallas",
+      "days": 3,
+      "budget": 5500,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_112",
+    "premise": "Could you help design a 3-day trip for a group of 4 from Las Vegas to Santa Maria from March 10th to March 12th, 2022? We have a budget of $3,700. We have a preference for American and Mediterranean cuisines. Budget: $3700. People: 4. Constraints: cuisine preference: ['American', 'Mediterranean'].",
+    "causal_feature": "planning a 3-day trip from Las Vegas to Santa Maria within budget of $3700 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Las Vegas to Santa Maria for 3 days within the given constraints",
+    "metadata": {
+      "org": "Las Vegas",
+      "dest": "Santa Maria",
+      "days": 3,
+      "budget": 3700,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_113",
+    "premise": "Please create a 3-day travel plan for two people, departing from Panama City and heading to Nashville from March 23rd to March 25th, 2022. We need accommodations that are not shared rooms and have a budget limit of $2,900. Budget: $2900. People: 2. Constraints: room type: not shared room.",
+    "causal_feature": "planning a 3-day trip from Panama City to Nashville within budget of $2900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Panama City to Nashville for 3 days within the given constraints",
+    "metadata": {
+      "org": "Panama City",
+      "dest": "Nashville",
+      "days": 3,
+      "budget": 2900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_114",
+    "premise": "Could you create a 3-day travel itinerary for a group of 8, departing from Valparaiso and moving to Belleville? We will be traveling from March 3rd to March 5th, 2022. Our total budget for this trip is $6,600. We fancy Chinese and American cuisines for our meals during this trip. Budget: $6600. People: 8. Constraints: cuisine preference: ['Chinese', 'American'].",
+    "causal_feature": "planning a 3-day trip from Valparaiso to Belleville within budget of $6600 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Valparaiso to Belleville for 3 days within the given constraints",
+    "metadata": {
+      "org": "Valparaiso",
+      "dest": "Belleville",
+      "days": 3,
+      "budget": 6600,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_115",
+    "premise": "Could you arrange a trip for two, leaving from Akron to Tampa for a duration of 3 days starting from March 28th, 2022 to March 30th, 2022? Our budget for this expedition is $2,500. We are fond of Chinese and American food, so we would like to try those cuisines at our destination. Budget: $2500. People: 2. Constraints: cuisine preference: ['Chinese', 'American'].",
+    "causal_feature": "planning a 3-day trip from Akron to Tampa within budget of $2500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Akron to Tampa for 3 days within the given constraints",
+    "metadata": {
+      "org": "Akron",
+      "dest": "Tampa",
+      "days": 3,
+      "budget": 2500,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_116",
+    "premise": "Could you help me create a travel plan for 3 days that starts from Houston to Wichita from March 19th to March 21st, 2022? We're a group of 3 people with a budget of $2,700. Smoking is a necessity for us, so accommodating this into our hotel arrangements would be beneficial. Budget: $2700. People: 3. Constraints: house rule: smoking.",
+    "causal_feature": "planning a 3-day trip from Houston to Wichita within budget of $2700 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Wichita for 3 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Wichita",
+      "days": 3,
+      "budget": 2700,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_117",
+    "premise": "Please assist in crafting a 3-day travel plan for a group of 4 people. We plan to leave from Dallas and proceed to Huntsville, spanning from March 13th to March 15th, 2022. We have a budget of $2,700 for this journey. We require entire rooms for accommodations during our stay. Budget: $2700. People: 4. Constraints: room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Dallas to Huntsville within budget of $2700 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Dallas to Huntsville for 3 days within the given constraints",
+    "metadata": {
+      "org": "Dallas",
+      "dest": "Huntsville",
+      "days": 3,
+      "budget": 2700,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_118",
+    "premise": "Can you create a travel plan for a group of 5 departing from Charlotte heading to Hilton Head, to be carried out over 3 days, from March 26th to March 28th, 2022? The budget for this trip is capped at $7,000. We have a preference for Italian and French cuisines during our trip. Budget: $7000. People: 5. Constraints: cuisine preference: ['Italian', 'French'].",
+    "causal_feature": "planning a 3-day trip from Charlotte to Hilton Head within budget of $7000 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Charlotte to Hilton Head for 3 days within the given constraints",
+    "metadata": {
+      "org": "Charlotte",
+      "dest": "Hilton Head",
+      "days": 3,
+      "budget": 7000,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_119",
+    "premise": "Could you create a 3-day travel itinerary for a party of 2, from Jacksonville to Washington between March 3rd and March 5th, 2022, with a budget of $1,000? Please note we're looking for accommodations where parties are allowed. Budget: $1000. People: 2. Constraints: house rule: parties.",
+    "causal_feature": "planning a 3-day trip from Jacksonville to Washington within budget of $1000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Jacksonville to Washington for 3 days within the given constraints",
+    "metadata": {
+      "org": "Jacksonville",
+      "dest": "Washington",
+      "days": 3,
+      "budget": 1000,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_120",
+    "premise": "Can you prepare a travel plan for a group of 7 departing from Appleton to Charlotte? This will be a 3-day trip from March 18th to March 20th, 2022. Our budget for this trip is $9,500. Please ensure our accommodations allow visitors, as per the house rules. Budget: $9500. People: 7. Constraints: house rule: visitors.",
+    "causal_feature": "planning a 3-day trip from Appleton to Charlotte within budget of $9500 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Appleton to Charlotte for 3 days within the given constraints",
+    "metadata": {
+      "org": "Appleton",
+      "dest": "Charlotte",
+      "days": 3,
+      "budget": 9500,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_121",
+    "premise": "Could you help draft a 3-day travel plan for two people? We're planning on departing Cleveland and arriving in Baltimore from March 15th to March 17th, 2022. We have a budget of $1,700 for this trip, and we require accommodations that provide private rooms. Budget: $1700. People: 2. Constraints: room type: private room.",
+    "causal_feature": "planning a 3-day trip from Cleveland to Baltimore within budget of $1700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Cleveland to Baltimore for 3 days within the given constraints",
+    "metadata": {
+      "org": "Cleveland",
+      "dest": "Baltimore",
+      "days": 3,
+      "budget": 1700,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_122",
+    "premise": "Please create a 3-day travel plan for a party of 3. We will be departing from Chicago and heading to Albuquerque, from March 16th to March 18th, 2022. Our budget is approximately $1,600. As for our accommodations, we would appreciate private rooms. Budget: $1600. People: 3. Constraints: room type: private room.",
+    "causal_feature": "planning a 3-day trip from Chicago to Albuquerque within budget of $1600 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chicago to Albuquerque for 3 days within the given constraints",
+    "metadata": {
+      "org": "Chicago",
+      "dest": "Albuquerque",
+      "days": 3,
+      "budget": 1600,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_123",
+    "premise": "Create a travel plan for two people departing from Eugene and heading to Los Angeles. The trip will span 3 days, from March 14th to March 16th, 2022. They require accommodations that should ideally be entire rooms. The budget for this trip is set at $1,700. Budget: $1700. People: 2. Constraints: room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Eugene to Los Angeles within budget of $1700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Eugene to Los Angeles for 3 days within the given constraints",
+    "metadata": {
+      "org": "Eugene",
+      "dest": "Los Angeles",
+      "days": 3,
+      "budget": 1700,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_124",
+    "premise": "I need assistance with organizing a 3-day trip for two people from Atlanta to Chicago, visiting just one city at the destination. The journey starts on March 24th and ends on March 26th, 2022. The revised budget for this trip is $1,900. We require accommodations that will provide us with entire rooms for our stay. Could you please help with this? Budget: $1900. People: 2. Constraints: room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Atlanta to Chicago within budget of $1900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Atlanta to Chicago for 3 days within the given constraints",
+    "metadata": {
+      "org": "Atlanta",
+      "dest": "Chicago",
+      "days": 3,
+      "budget": 1900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_125",
+    "premise": "Could you tailor a 5-day travel plan for two people, departing from Knoxville and visiting 2 cities in Florida from March 20 to March 24, 2022? Our budget is set at $3,900. We'd love to explore local Chinese and Mediterranean cuisines during our stay. Budget: $3900. People: 2. Constraints: cuisine preference: ['Chinese', 'Mediterranean'].",
+    "causal_feature": "planning a 5-day trip from Knoxville to Florida within budget of $3900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Knoxville to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "Knoxville",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 3900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_126",
+    "premise": "Could you create a 5-day travel itinerary for a group of 3, starting in Miami and visiting 2 cities in Texas from March 27th to March 31st, 2022? We have a budget of $8,500. Along the way, we would love to experience Indian and Mediterranean cuisine. Budget: $8500. People: 3. Constraints: cuisine preference: ['Indian', 'Mediterranean'].",
+    "causal_feature": "planning a 5-day trip from Miami to Texas within budget of $8500 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Miami to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Miami",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 8500,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_127",
+    "premise": "Can you assist with crafting a 5-day travel itinerary for 2 people, originating from Denver and featuring 2 cities in New York? The itinerary will run from March 18th to March 22nd, 2022. Mexican and Indian cuisine are our preferred choices of food. Considering the budget, we have set it to $6,300. Budget: $6300. People: 2. Constraints: cuisine preference: ['Mexican', 'Indian'].",
+    "causal_feature": "planning a 5-day trip from Denver to New York within budget of $6300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Denver to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Denver",
+      "dest": "New York",
+      "days": 5,
+      "budget": 6300,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_128",
+    "premise": "Can you assist with a 5-day travel plan for two people, going from Greer to New York, covering 2 cities in the state from March 10th to March 14th, 2022? Our budget is set at $3,400. We require accommodations that could be private rooms. Budget: $3400. People: 2. Constraints: room type: private room.",
+    "causal_feature": "planning a 5-day trip from Greer to New York within budget of $3400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Greer to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Greer",
+      "dest": "New York",
+      "days": 5,
+      "budget": 3400,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_129",
+    "premise": "Can you create a 5-day travel itinerary for me? We are a group of 8 starting from Salt Lake City and intend to visit 2 cities in Texas from March 14th to March 18th, 2022. Our budget has been updated to $12,000. We require our accommodations to have a visitors-friendly house rule. Budget: $12000. People: 8. Constraints: house rule: visitors.",
+    "causal_feature": "planning a 5-day trip from Salt Lake City to Texas within budget of $12000 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Salt Lake City to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Salt Lake City",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 12000,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_130",
+    "premise": "Could you create a 5-day travel plan for two people, beginning in Newark and visiting 2 cities in Wisconsin from March 13th to March 17th, 2022? Our budget is set at $2,700 and we prefer to stay in shared rooms. Budget: $2700. People: 2. Constraints: room type: shared room.",
+    "causal_feature": "planning a 5-day trip from Newark to Wisconsin within budget of $2700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Newark to Wisconsin for 5 days within the given constraints",
+    "metadata": {
+      "org": "Newark",
+      "dest": "Wisconsin",
+      "days": 5,
+      "budget": 2700,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_131",
+    "premise": "Could you help arrange a 5-day travel plan for a group of 7, departing from Omaha and planning to visit 2 cities in Colorado? The trip is set from March 14th to March 18th, 2022. It's vital that our accommodations are pet-friendly, as we have pets with us. Our budget for the entire trip is $23,400. Budget: $23400. People: 7. Constraints: house rule: pets.",
+    "causal_feature": "planning a 5-day trip from Omaha to Colorado within budget of $23400 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Omaha to Colorado for 5 days within the given constraints",
+    "metadata": {
+      "org": "Omaha",
+      "dest": "Colorado",
+      "days": 5,
+      "budget": 23400,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_132",
+    "premise": "Can you create a 5-day travel plan for 2 people departing from Syracuse to visit 2 cities in Georgia? We are planning to travel from March 16th to March 20th, 2022. Our budget is approximately $2,000. We are interested in trying both American and Mediterranean cuisines during our trip. Budget: $2000. People: 2. Constraints: cuisine preference: ['American', 'Mediterranean'].",
+    "causal_feature": "planning a 5-day trip from Syracuse to Georgia within budget of $2000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Syracuse to Georgia for 5 days within the given constraints",
+    "metadata": {
+      "org": "Syracuse",
+      "dest": "Georgia",
+      "days": 5,
+      "budget": 2000,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_133",
+    "premise": "Could you create a 5-day travel itinerary starting from Pittsburgh and venturing into 2 cities in Texas from March 5th to March 9th, 2022, for a group of 7 people? Our budget is set at $16,100. It's important for us to stay in accommodations that permit children under the age of 10. Budget: $16100. People: 7. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 5-day trip from Pittsburgh to Texas within budget of $16100 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Pittsburgh to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Pittsburgh",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 16100,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_134",
+    "premise": "Please create a 5-day travel plan for a group of 3 people, departing from Austin and touring 2 cities in Michigan from March 27th to March 31st, 2022. Our budget is set at $5,900, and we would like to have private rooms for our accommodations. Budget: $5900. People: 3. Constraints: room type: private room.",
+    "causal_feature": "planning a 5-day trip from Austin to Michigan within budget of $5900 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Austin to Michigan for 5 days within the given constraints",
+    "metadata": {
+      "org": "Austin",
+      "dest": "Michigan",
+      "days": 5,
+      "budget": 5900,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_135",
+    "premise": "Can you please generate a 5-day travel plan for a party of 3, departing from Omaha and visiting 2 cities in Michigan, with a journey taking place from March 19th to March 23rd, 2022? Our budget is $7,500. Our accommodation requirements are private rooms. Budget: $7500. People: 3. Constraints: room type: private room.",
+    "causal_feature": "planning a 5-day trip from Omaha to Michigan within budget of $7500 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Omaha to Michigan for 5 days within the given constraints",
+    "metadata": {
+      "org": "Omaha",
+      "dest": "Michigan",
+      "days": 5,
+      "budget": 7500,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_136",
+    "premise": "Can you design a 5-day travel plan for a group of 3? We wish to start in New Orleans and visit 2 cities in Florida from March 12th to March 16th, 2022. We've set a new budget of $4,200 for the trip. For our stay, we'd prefer to have entire rooms as our accommodations. Budget: $4200. People: 3. Constraints: room type: entire room.",
+    "causal_feature": "planning a 5-day trip from New Orleans to Florida within budget of $4200 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from New Orleans to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "New Orleans",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 4200,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_137",
+    "premise": "Could you help design a 5-day travel itinerary for 2 people, starting our journey from Durango and planning to visit 2 cities in Texas, from March 27th to March 31st, 2022? Our budget is set at $2,300 for this trip. We would love to explore Chinese and Indian cuisine during our trip. Budget: $2300. People: 2. Constraints: cuisine preference: ['Chinese', 'Indian'].",
+    "causal_feature": "planning a 5-day trip from Durango to Texas within budget of $2300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Durango to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Durango",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2300,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_138",
+    "premise": "Could you create a 5-day travel plan for 2 people departing from Richmond to visit 2 cities in Texas? The trip is scheduled from March 6th to March 10th, 2022. Our budget is $6,000. We have a particular interest in Chinese and Indian cuisines for our meals. Budget: $6000. People: 2. Constraints: cuisine preference: ['Chinese', 'Indian'].",
+    "causal_feature": "planning a 5-day trip from Richmond to Texas within budget of $6000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Richmond to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Richmond",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 6000,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_139",
+    "premise": "Could you create a travel plan for a party of 8 departing from Fayetteville and heading to New York for 5 days, which will cover 2 cities between March 25th and March 29th, 2022? We have a maximum budget of $6,900. We are particularly interested in experiencing American and Mexican cuisines during our stay. Budget: $6900. People: 8. Constraints: cuisine preference: ['American', 'Mexican'].",
+    "causal_feature": "planning a 5-day trip from Fayetteville to New York within budget of $6900 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fayetteville to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Fayetteville",
+      "dest": "New York",
+      "days": 5,
+      "budget": 6900,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_140",
+    "premise": "Could you help plan a 5-day trip for a group of 5 people, starting from Missoula and covering 2 cities in Texas from March 26th to March 30th, 2022? Our travel budget is $7,200. We'd particularly enjoy having access to both authentic Italian and French cuisines during our trip. Budget: $7200. People: 5. Constraints: cuisine preference: ['Italian', 'French'].",
+    "causal_feature": "planning a 5-day trip from Missoula to Texas within budget of $7200 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Missoula to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Missoula",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 7200,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_141",
+    "premise": "Can you assist in planning a 5-day travel itinerary for a party of 3 people from Manhattan heading to Texas, involving visits to 2 cities there from March 14th to March 18th, 2022? The budget for this trip stands at $3,900. We'd prefer accommodations that allow parties. Budget: $3900. People: 3. Constraints: house rule: parties.",
+    "causal_feature": "planning a 5-day trip from Manhattan to Texas within budget of $3900 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Manhattan to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Manhattan",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 3900,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_142",
+    "premise": "Could you devise a 5-day travel itinerary for a group of 4, commencing in Bloomington and roaming in two cities in Florida from March 13th to March 17th, 2022? Our budget is set at $15,900. We require accommodations to be pet-friendly. Budget: $15900. People: 4. Constraints: house rule: pets.",
+    "causal_feature": "planning a 5-day trip from Bloomington to Florida within budget of $15900 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Bloomington to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "Bloomington",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 15900,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_143",
+    "premise": "We need to create a travel plan for 2 people departing from Lake Charles and visiting 2 cities in Texas. The trip will last for 5 days, starting from March 4th to March 8th, 2022. The budget is set at $4,600. In terms of accommodations, we prefer places where parties are allowed. Budget: $4600. People: 2. Constraints: house rule: parties.",
+    "causal_feature": "planning a 5-day trip from Lake Charles to Texas within budget of $4600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Lake Charles to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Lake Charles",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 4600,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_144",
+    "premise": "Can you generate a 5-day travel itinerary for a group of 4, departing from Myrtle Beach and planning to visit 2 cities in Tennessee? The trip is scheduled from March 14th to March 18th, 2022, and we have allocated a budget of $5,500. We would prefer to stay in private rooms during our accommodations. Budget: $5500. People: 4. Constraints: room type: private room.",
+    "causal_feature": "planning a 5-day trip from Myrtle Beach to Tennessee within budget of $5500 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Myrtle Beach to Tennessee for 5 days within the given constraints",
+    "metadata": {
+      "org": "Myrtle Beach",
+      "dest": "Tennessee",
+      "days": 5,
+      "budget": 5500,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_145",
+    "premise": "Can you create a one-week travel itinerary for two people departing from Myrtle Beach and covering three cities in Michigan between March 4th and March 10th, 2022? Our budget is set at $8,300. We would like to experience both French and American cuisines during our journey. We will require accommodations, though we have no specific house rules in mind. Budget: $8300. People: 2. Constraints: cuisine preference: ['French', 'American'].",
+    "causal_feature": "planning a 7-day trip from Myrtle Beach to Michigan within budget of $8300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Myrtle Beach to Michigan for 7 days within the given constraints",
+    "metadata": {
+      "org": "Myrtle Beach",
+      "dest": "Michigan",
+      "days": 7,
+      "budget": 8300,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_146",
+    "premise": "I need assistance with planning a week-long trip for three people, starting from Punta Gorda and traveling to three different cities in Michigan. The trip dates are from March 6th to March 12th, 2022, and our new budget is set at $4,400. For dining, we'd like to try local American and French cuisines. Budget: $4400. People: 3. Constraints: cuisine preference: ['American', 'French'].",
+    "causal_feature": "planning a 7-day trip from Punta Gorda to Michigan within budget of $4400 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Punta Gorda to Michigan for 7 days within the given constraints",
+    "metadata": {
+      "org": "Punta Gorda",
+      "dest": "Michigan",
+      "days": 7,
+      "budget": 4400,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_147",
+    "premise": "Could you help create a 7-day travel plan for a group of 3, departing from Greensboro and touring 3 different cities in Georgia from March 10th to March 16th, 2022? We have a new budget of $4,000 for this trip. We'd also appreciate if our accommodations have smoking areas. Budget: $4000. People: 3. Constraints: house rule: smoking.",
+    "causal_feature": "planning a 7-day trip from Greensboro to Georgia within budget of $4000 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Greensboro to Georgia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Greensboro",
+      "dest": "Georgia",
+      "days": 7,
+      "budget": 4000,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_148",
+    "premise": "Can you help me create a one-week travel itinerary for two people, starting in Tulsa and visiting three different cities in Missouri from March 14th till March 20th, 2022? Our budget is $8,800 and we would like to have private rooms for our accommodations. Budget: $8800. People: 2. Constraints: room type: private room.",
+    "causal_feature": "planning a 7-day trip from Tulsa to Missouri within budget of $8800 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Tulsa to Missouri for 7 days within the given constraints",
+    "metadata": {
+      "org": "Tulsa",
+      "dest": "Missouri",
+      "days": 7,
+      "budget": 8800,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_149",
+    "premise": "Could you construct a 7-day travel itinerary for a group of 4, beginning in Monterey and exploring 3 cities in Texas from March 9th to March 15th, 2022? We've allocated a budget of $15,600 for this trip. Food-wise, we're particularly interested in trying out French and Chinese cuisines. Budget: $15600. People: 4. Constraints: cuisine preference: ['French', 'Chinese'].",
+    "causal_feature": "planning a 7-day trip from Monterey to Texas within budget of $15600 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Monterey to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Monterey",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 15600,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_150",
+    "premise": "We're seeking a 7-day travel plan for 2 individuals, beginning in Akron and involving a visit to 3 different cities in Georgia from March 23rd to March 29th, 2022. We have set aside a budget of $8,900 for our trip. During our adventure, we'd like to dine on American and Chinese cuisine. Budget: $8900. People: 2. Constraints: cuisine preference: ['American', 'Chinese'].",
+    "causal_feature": "planning a 7-day trip from Akron to Georgia within budget of $8900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Akron to Georgia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Akron",
+      "dest": "Georgia",
+      "days": 7,
+      "budget": 8900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_151",
+    "premise": "Can you help me design a week-long travel itinerary for a group of 5, departing from Washington and visiting 3 different cities in Indiana? The trip should last from March 23rd to March 29th, 2022, and our budget is set at $23,800. It's important to note that our accommodations need to be suitable for children under 10 years of age. Budget: $23800. People: 5. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Washington to Indiana within budget of $23800 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to Indiana for 7 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "Indiana",
+      "days": 7,
+      "budget": 23800,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_152",
+    "premise": "We are a group of 6 people, looking to plan a week-long vacation spanning from March 21st to March 27th, 2022. Our journey will start from Billings, heading towards Arizona with the intent to visit 3 cities in Arizona. Our total budget for the travel plan is $11,700. The accommodations should allow visitors. Budget: $11700. People: 6. Constraints: house rule: visitors.",
+    "causal_feature": "planning a 7-day trip from Billings to Arizona within budget of $11700 for 6 person(s)",
+    "hypothesis": "A valid travel plan can be created from Billings to Arizona for 7 days within the given constraints",
+    "metadata": {
+      "org": "Billings",
+      "dest": "Arizona",
+      "days": 7,
+      "budget": 11700,
+      "people": 6,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_153",
+    "premise": "I am looking for a 7-day travel plan for two people from Harrisburg to Texas, visiting 3 cities between March 8th and March 14th, 2022. The budget for this trip is $4,100. We have a preference for Italian and French cuisines throughout the trip. Budget: $4100. People: 2. Constraints: cuisine preference: ['Italian', 'French'].",
+    "causal_feature": "planning a 7-day trip from Harrisburg to Texas within budget of $4100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Harrisburg to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Harrisburg",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 4100,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_154",
+    "premise": "Can you help me create a 7-day travel itinerary for 2 people, starting from Miami, visiting 3 different cities in California from March 8th to March 14th, 2022? Our budget for the trip is $7,200. We enjoy Mexican and American cuisine. Budget: $7200. People: 2. Constraints: cuisine preference: ['Mexican', 'American'].",
+    "causal_feature": "planning a 7-day trip from Miami to California within budget of $7200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Miami to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "Miami",
+      "dest": "California",
+      "days": 7,
+      "budget": 7200,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_155",
+    "premise": "I need assistance in crafting a 7-day travel plan for a group of 4 from Lexington to Texas. We plan to visit 3 cities in Texas from March 18th to March 24th, 2022. Please ensure that our lodging accommodations are suitable for children under 10 as we will be traveling with our younger ones. We have a budget of $16,800 for this trip. Budget: $16800. People: 4. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Lexington to Texas within budget of $16800 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Lexington to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Lexington",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 16800,
+      "people": 4,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_156",
+    "premise": "Can you arrange a 7-day trip for 2 people departing from Washington and visiting 3 cities in New York? The trip will be from March 13th to March 19th, 2022, with a budget of $5,500. We would prefer accommodations with smoking house rules. Budget: $5500. People: 2. Constraints: house rule: smoking.",
+    "causal_feature": "planning a 7-day trip from Washington to New York within budget of $5500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to New York for 7 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "New York",
+      "days": 7,
+      "budget": 5500,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_157",
+    "premise": "Please assist in devising a week-long travel plan for a party of 5. We will depart from Marquette with the aim of visiting 3 cities in Michigan between March 6th and March 12th, 2022. Our budget is now set at $14,600. We should emphasize that our accommodations must be suitable for children under 10. Budget: $14600. People: 5. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Marquette to Michigan within budget of $14600 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Marquette to Michigan for 7 days within the given constraints",
+    "metadata": {
+      "org": "Marquette",
+      "dest": "Michigan",
+      "days": 7,
+      "budget": 14600,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_158",
+    "premise": "Could you design a 7-day travel plan starting March 11th and ending March 17th, 2022, for a group of 7 people? We intend to start from Rapid City and travel to 3 cities in Colorado. Our budget is about $16,300. For accommodations, we prefer having entire rooms. Budget: $16300. People: 7. Constraints: room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Rapid City to Colorado within budget of $16300 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Rapid City to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Rapid City",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 16300,
+      "people": 7,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_159",
+    "premise": "I require a 7-day travel plan for two people, beginning in Minneapolis and continuing to three different cities in Texas from March 22 to March 28, 2022. Our budget for this trip is $11,900. It's essential to us that our accommodations are suitable for children under 10 years old. Budget: $11900. People: 2. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Minneapolis to Texas within budget of $11900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 11900,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_160",
+    "premise": "We're looking for a 7-day travel plan for a group of 5. We'll be departing from Provo and intend to visit 3 different cities in California from March 22nd to March 28th, 2022. We have a budget of $14,900 and require accommodations that allow parties. Budget: $14900. People: 5. Constraints: house rule: parties.",
+    "causal_feature": "planning a 7-day trip from Provo to California within budget of $14900 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from Provo to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "Provo",
+      "dest": "California",
+      "days": 7,
+      "budget": 14900,
+      "people": 5,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_161",
+    "premise": "Could you create a 7-day travel plan for a group of 8, starting from Rockford and visiting 3 cities in Florida from March 8th to March 14th, 2022? The budget allocated for this trip is $17,000. The accommodation preference is to have entire rooms for the group. Budget: $17000. People: 8. Constraints: room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Rockford to Florida within budget of $17000 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Rockford to Florida for 7 days within the given constraints",
+    "metadata": {
+      "org": "Rockford",
+      "dest": "Florida",
+      "days": 7,
+      "budget": 17000,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_162",
+    "premise": "We are looking for a 7-day trip from St. Louis to Pennsylvania, touring 3 cities from the 23rd to the 29th of March, 2022. We are two people with a budget of $7,200. On our trip, we would like to try Indian and American cuisine. Budget: $7200. People: 2. Constraints: cuisine preference: ['Indian', 'American'].",
+    "causal_feature": "planning a 7-day trip from St. Louis to Pennsylvania within budget of $7200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from St. Louis to Pennsylvania for 7 days within the given constraints",
+    "metadata": {
+      "org": "St. Louis",
+      "dest": "Pennsylvania",
+      "days": 7,
+      "budget": 7200,
+      "people": 2,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_163",
+    "premise": "Could you craft a 7-day travel itinerary for a group of three starting in Peoria and planning to visit three different cities within Illinois from March 13th to March 19th, 2022? We have a set budget of $8,400 and require accommodations that allow children under 10. Budget: $8400. People: 3. Constraints: house rule: children under 10.",
+    "causal_feature": "planning a 7-day trip from Peoria to Illinois within budget of $8400 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Peoria to Illinois for 7 days within the given constraints",
+    "metadata": {
+      "org": "Peoria",
+      "dest": "Illinois",
+      "days": 7,
+      "budget": 8400,
+      "people": 3,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_164",
+    "premise": "I am in need of a 7-day travel plan for a group of 8 travelers. We plan to depart from Chicago and visit 3 cities in Idaho from March 25th to March 31st, 2022. We've set our new budget at $22,200. In regards to dining preferences, we have a keen interest in Italian and Chinese cuisines. Budget: $22200. People: 8. Constraints: cuisine preference: ['Italian', 'Chinese'].",
+    "causal_feature": "planning a 7-day trip from Chicago to Idaho within budget of $22200 for 8 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chicago to Idaho for 7 days within the given constraints",
+    "metadata": {
+      "org": "Chicago",
+      "dest": "Idaho",
+      "days": 7,
+      "budget": 22200,
+      "people": 8,
+      "level": "medium"
+    }
+  },
+  {
+    "id": "travelplanner_165",
+    "premise": "I need to organize a 3-day trip for a group of 3, departing from Asheville and arriving in Minneapolis. We will be traveling from March 7th to March 9th, 2022, with a total budget of $2,300. We require accommodations that allow pets and provide entire rooms. Regarding meals, our group enjoys a variety of cuisines, including Indian, Chinese, Mediterranean, and American. Budget: $2300. People: 3. Constraints: house rule: pets, cuisine preference: ['Indian', 'Chinese', 'Mediterranean', 'American'], room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Asheville to Minneapolis within budget of $2300 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Asheville to Minneapolis for 3 days within the given constraints",
+    "metadata": {
+      "org": "Asheville",
+      "dest": "Minneapolis",
+      "days": 3,
+      "budget": 2300,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_166",
+    "premise": "Can you design a 3-day travel itinerary for 2 people, departing from Ithaca and heading to Newark from March 18th to March 20th, 2022? Our budget is set at $1,200, and we require our accommodations to be entire rooms and visitor-friendly. Please note that we prefer not to drive ourselves during this trip. Budget: $1200. People: 2. Constraints: house rule: visitors, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Ithaca to Newark within budget of $1200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Ithaca to Newark for 3 days within the given constraints",
+    "metadata": {
+      "org": "Ithaca",
+      "dest": "Newark",
+      "days": 3,
+      "budget": 1200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_167",
+    "premise": "Could you assist in creating a 3-day travel plan for a duo, starting from Nashville and going to Detroit from March 15th to March 17th, 2022? Our budget is set at $2,200. We require accommodations that permit smoking and are looking for rooms that are not shared. We would prefer not to drive ourselves during this trip. Budget: $2200. People: 2. Constraints: house rule: smoking, room type: not shared room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Nashville to Detroit within budget of $2200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Nashville to Detroit for 3 days within the given constraints",
+    "metadata": {
+      "org": "Nashville",
+      "dest": "Detroit",
+      "days": 3,
+      "budget": 2200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_168",
+    "premise": "Can you assist in creating a travel plan that commences in Atlanta, heading to Knoxville for a duration of 3 days, from March 29th to March 31st, 2022. For our accommodations, we are aiming for private rooms that accommodate children under the age of 10. Please note that we'll not be engaging in any self-driving. Overall, we are hoping to stay within a budget of $1,000. Budget: $1000. People: 2. Constraints: house rule: children under 10, room type: private room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Atlanta to Knoxville within budget of $1000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Atlanta to Knoxville for 3 days within the given constraints",
+    "metadata": {
+      "org": "Atlanta",
+      "dest": "Knoxville",
+      "days": 3,
+      "budget": 1000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_169",
+    "premise": "Can you please generate a 3-day travel plan for 2 people departing from New York and traveling to Charleston from March 19th to March 21st, 2022? Our budget is set at $1,600. We require accommodations that allow smoking and should not be shared rooms. We have a preference for French, Mediterranean, Mexican, and Chinese cuisines during our trip. Budget: $1600. People: 2. Constraints: house rule: smoking, cuisine preference: ['French', 'Mediterranean', 'Mexican', 'Chinese'], room type: not shared room.",
+    "causal_feature": "planning a 3-day trip from New York to Charleston within budget of $1600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from New York to Charleston for 3 days within the given constraints",
+    "metadata": {
+      "org": "New York",
+      "dest": "Charleston",
+      "days": 3,
+      "budget": 1600,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_170",
+    "premise": "Could you construct a 3-day journey for two people from Chicago to Albany that takes place from March 22nd to March 24th, 2022? Our budget is $2,300. We require accommodations that allow smoking and should ideally be entire rooms. We will not be self-driving during this trip. On the subject of cuisine, we're open to any suggestions you might have. Budget: $2300. People: 2. Constraints: house rule: smoking, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Chicago to Albany within budget of $2300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chicago to Albany for 3 days within the given constraints",
+    "metadata": {
+      "org": "Chicago",
+      "dest": "Albany",
+      "days": 3,
+      "budget": 2300,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_171",
+    "premise": "Can you help put together a 3-day travel plan for a group of 3, leaving from Daytona Beach and heading to Atlanta from March 2nd to March 4th, 2022? We have a budget of $2,100. We require accommodations that allow children under 10 years of age, and we prefer having entire rooms to ourselves. Please note, we cannot utilize flights for transportation on this trip. Budget: $2100. People: 3. Constraints: house rule: children under 10, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from Daytona Beach to Atlanta within budget of $2100 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Daytona Beach to Atlanta for 3 days within the given constraints",
+    "metadata": {
+      "org": "Daytona Beach",
+      "dest": "Atlanta",
+      "days": 3,
+      "budget": 2100,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_172",
+    "premise": "Could you help design a travel plan for two people leaving from Houston to Pensacola for 3 days, from March 6th to March 8th, 2022? Our budget is set at $1,400 for this trip and we require our accommodations to be visitor-friendly. We would like to have options to dine at Indian, American, Chinese, and Italian restaurants. We also prefer not to self-drive during the trip. Budget: $1400. People: 2. Constraints: house rule: visitors, cuisine preference: ['Indian', 'American', 'Chinese', 'Italian'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Houston to Pensacola within budget of $1400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Pensacola for 3 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Pensacola",
+      "days": 3,
+      "budget": 1400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_173",
+    "premise": "I need a 3-day travel itinerary for two people, departing from Newark and visiting Savannah from March 3rd to March 5th, 2022. We have a budget of $1,400. We'll be traveling with children under 10, so accommodations must be suitable for them. Our dietary preferences include Mediterranean, Mexican, French, and Indian cuisines, and we would appreciate food recommendations that cater to these preferences. Please note that we're not planning on self-driving. Budget: $1400. People: 2. Constraints: house rule: children under 10, cuisine preference: ['Mediterranean', 'Mexican', 'French', 'Indian'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Newark to Savannah within budget of $1400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Newark to Savannah for 3 days within the given constraints",
+    "metadata": {
+      "org": "Newark",
+      "dest": "Savannah",
+      "days": 3,
+      "budget": 1400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_174",
+    "premise": "Can you help me craft a 3-day travel plan for two people, starting from South Bend and ending in Atlanta, from March 6th to March 8th, 2022? Our budget is $1,500. We require accommodations that allow parties and we're interested in tasting local Mediterranean, American, Chinese, and Indian cuisines. Additionally, we are not planning on driving ourselves. Budget: $1500. People: 2. Constraints: house rule: parties, cuisine preference: ['Mediterranean', 'American', 'Chinese', 'Indian'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from South Bend to Atlanta within budget of $1500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from South Bend to Atlanta for 3 days within the given constraints",
+    "metadata": {
+      "org": "South Bend",
+      "dest": "Atlanta",
+      "days": 3,
+      "budget": 1500,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_175",
+    "premise": "Can you help formulate a 3-day travel plan for 2 people, starting from Los Angeles and heading to Detroit, from March 18th to March 20th, 2022? Our total budget for the trip is $2,000. For accommodations, we need places that allow visitors. Also, we're looking for opportunities to savor diverse cuisines, including Chinese, Indian, Mexican, and Italian. We prefer not to self-drive during the journey. Budget: $2000. People: 2. Constraints: house rule: visitors, cuisine preference: ['Chinese', 'Indian', 'Mexican', 'Italian'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Los Angeles to Detroit within budget of $2000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Los Angeles to Detroit for 3 days within the given constraints",
+    "metadata": {
+      "org": "Los Angeles",
+      "dest": "Detroit",
+      "days": 3,
+      "budget": 2000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_176",
+    "premise": "Can you assist in developing a 3-day trip plan for two individuals? We'll embark on our journey from San Jose aiming to explore Portland from March 16th to March 18th, 2022. Our budget is limited to $1,000. Our itinerary must include accommodations where pets are allowed. Regarding cuisine, we're particularly interested in Mediterranean, French, Mexican, and Indian food. Importantly, please avoid any flight bookings for transportation. Budget: $1000. People: 2. Constraints: house rule: pets, cuisine preference: ['Mediterranean', 'French', 'Mexican', 'Indian'], transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from San Jose to Portland within budget of $1000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from San Jose to Portland for 3 days within the given constraints",
+    "metadata": {
+      "org": "San Jose",
+      "dest": "Portland",
+      "days": 3,
+      "budget": 1000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_177",
+    "premise": "Consider a travel plan departing from Houston to Pensacola for a period of 3 days, from March 12th to 14th, 2022. The plan should cater to 2 people with a maximum budget of $1,100. Please ensure that our accommodations permit smoking and offer non-shared rooms. Our preferred mode of transportation is not flight-based. Budget: $1100. People: 2. Constraints: house rule: smoking, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from Houston to Pensacola within budget of $1100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Pensacola for 3 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Pensacola",
+      "days": 3,
+      "budget": 1100,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_178",
+    "premise": "Can you assist in formulating a 3-day travel plan departing from Columbus and heading to Newark, covering 1 city, from March 25th to March 27th, 2022, for 2 people? We are traveling with children under 10, so our accommodations must be suitable for them. We'd prefer entire rooms and our revised budget is set at $1,200. We're also looking for options where we don't need to self-drive. Budget: $1200. People: 2. Constraints: house rule: children under 10, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Columbus to Newark within budget of $1200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Columbus to Newark for 3 days within the given constraints",
+    "metadata": {
+      "org": "Columbus",
+      "dest": "Newark",
+      "days": 3,
+      "budget": 1200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_179",
+    "premise": "Could you help me plan a 3-day trip for two people from Santa Ana to Houston between March 21st and March 23rd, 2022? We have a revised total budget of $3,000. We require accommodations that allow smoking, and we'd like our itinerary to include American, Italian, Mediterranean, and Mexican cuisines. Please consider alternative transportation options, as we do not intend to self-drive. Budget: $3000. People: 2. Constraints: house rule: smoking, cuisine preference: ['American', 'Italian', 'Mediterranean', 'Mexican'], transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Santa Ana to Houston within budget of $3000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Santa Ana to Houston for 3 days within the given constraints",
+    "metadata": {
+      "org": "Santa Ana",
+      "dest": "Houston",
+      "days": 3,
+      "budget": 3000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_180",
+    "premise": "Could you help create a 3-day travel plan for two people? We're traveling from West Palm Beach to White Plains, visiting only one city from March 5th to March 7th, 2022. We have a budget of $2,600. For our accommodations, we'd like rooms that are not shared. We are not planning on self-driving and will be reliant on public transportation. Cuisines we are interested in trying include Mexican, Chinese, Mediterranean, and American. Budget: $2600. People: 2. Constraints: cuisine preference: ['Mexican', 'Chinese', 'Mediterranean', 'American'], room type: not shared room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from West Palm Beach to White Plains within budget of $2600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from West Palm Beach to White Plains for 3 days within the given constraints",
+    "metadata": {
+      "org": "West Palm Beach",
+      "dest": "White Plains",
+      "days": 3,
+      "budget": 2600,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_181",
+    "premise": "Can you help arrange a travel plan departing from Cincinnati and journeying to Philadelphia? We will be there for 3 days, from March 7th to March 9th, 2022. This trip is for 2 people with a budget of $2,000. We require accommodations that allow children under 10 and private rooms. We are not planning on self-driving during this trip. Budget: $2000. People: 2. Constraints: house rule: children under 10, room type: private room, transportation: no self-driving.",
+    "causal_feature": "planning a 3-day trip from Cincinnati to Philadelphia within budget of $2000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Cincinnati to Philadelphia for 3 days within the given constraints",
+    "metadata": {
+      "org": "Cincinnati",
+      "dest": "Philadelphia",
+      "days": 3,
+      "budget": 2000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_182",
+    "premise": "Can you assist in creating a 3-day travel itinerary for two people, beginning in Elmira and ending in Detroit from March 25th to March 27th, 2022? We have a budget of $2,200. For our stay, we would like to have entire rooms and they need to be pet-friendly. Regarding food, we would love to experience French, Mexican, American, and Mediterranean cuisines during our trip. Budget: $2200. People: 2. Constraints: house rule: pets, cuisine preference: ['French', 'Mexican', 'American', 'Mediterranean'], room type: entire room.",
+    "causal_feature": "planning a 3-day trip from Elmira to Detroit within budget of $2200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Elmira to Detroit for 3 days within the given constraints",
+    "metadata": {
+      "org": "Elmira",
+      "dest": "Detroit",
+      "days": 3,
+      "budget": 2200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_183",
+    "premise": "Please create a 3-day itinerary for a group of 3 departing from Fort Wayne and heading to Charlotte, spanning from March 8th to March 10th, 2022. We have a budget of $1,900. Our group will need to find accommodations that allow pets and provide entire rooms. We would also prefer a journey that doesn't involve any flights. Budget: $1900. People: 3. Constraints: house rule: pets, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from Fort Wayne to Charlotte within budget of $1900 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Wayne to Charlotte for 3 days within the given constraints",
+    "metadata": {
+      "org": "Fort Wayne",
+      "dest": "Charlotte",
+      "days": 3,
+      "budget": 1900,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_184",
+    "premise": "Could you assist in formulating a 3-day trip for two individuals, initiating from El Paso and concluding in Phoenix? The travel dates we're considering are March 4th to March 6th, 2022. We have a budget of $1,900. For accommodations, we have one constraint: the establishments must allow visitors. As far as meals go, we have a diverse taste palette, encompassing American, French, Mexican, and Indian cuisines. And to clarify, we are willing to travel, but not via flight. Budget: $1900. People: 2. Constraints: house rule: visitors, cuisine preference: ['American', 'French', 'Mexican', 'Indian'], transportation: no flight.",
+    "causal_feature": "planning a 3-day trip from El Paso to Phoenix within budget of $1900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from El Paso to Phoenix for 3 days within the given constraints",
+    "metadata": {
+      "org": "El Paso",
+      "dest": "Phoenix",
+      "days": 3,
+      "budget": 1900,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_185",
+    "premise": "Could you assist with a 5-day travel plan for a duo beginning from Las Vegas and proceeding to visit 2 cities within Texas, from March 13th to March 17th, 2022? Our budget is now set at $3,700. We require accommodations that allow pets and should ideally be non-shared rooms. In regards to cuisine, we'd like to taste American, Indian, Mediterranean, and Mexican dishes throughout our journey. Budget: $3700. People: 2. Constraints: house rule: pets, cuisine preference: ['American', 'Indian', 'Mediterranean', 'Mexican'], room type: not shared room.",
+    "causal_feature": "planning a 5-day trip from Las Vegas to Texas within budget of $3700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Las Vegas to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Las Vegas",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 3700,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_186",
+    "premise": "Could you create a 5-day travel itinerary for two people starting in Washington and visiting 2 cities in California from March 14th to March 18th, 2022? The budget for this trip is $4,600. We are food lovers with a preference for Chinese, Mexican, American, and Italian cuisines. As for our accommodations, we require non-shared rooms and places that welcome visitors. Transportation details are currently flexible. Budget: $4600. People: 2. Constraints: house rule: visitors, cuisine preference: ['Chinese', 'Mexican', 'American', 'Italian'], room type: not shared room.",
+    "causal_feature": "planning a 5-day trip from Washington to California within budget of $4600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to California for 5 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "California",
+      "days": 5,
+      "budget": 4600,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_187",
+    "premise": "Could you help me plan a 5-day journey for a group of 6, departing from Cleveland and visiting 2 cities in Florida from March 2nd to March 6th, 2022? Our budget is now $13,900, and we require pet-friendly accommodations that should ideally be entire rooms. We are planning on bringing our pets along, so the need for pet-friendly accommodations is crucial. We would also prefer not to self-drive. Budget: $13900. People: 6. Constraints: house rule: pets, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Cleveland to Florida within budget of $13900 for 6 person(s)",
+    "hypothesis": "A valid travel plan can be created from Cleveland to Florida for 5 days within the given constraints",
+    "metadata": {
+      "org": "Cleveland",
+      "dest": "Florida",
+      "days": 5,
+      "budget": 13900,
+      "people": 6,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_188",
+    "premise": "Could you suggest a 5-day travel itinerary for 2, leaving from Charlotte and visiting 2 cities in Wisconsin from March 18th to March 22nd, 2022? Our travel budget is set at $2,500. We will be traveling with children under 10, so our accommodations must be child-friendly and provide private rooms. Kindly ensure no flights are involved in the transportation planning. Budget: $2500. People: 2. Constraints: house rule: children under 10, room type: private room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Charlotte to Wisconsin within budget of $2500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Charlotte to Wisconsin for 5 days within the given constraints",
+    "metadata": {
+      "org": "Charlotte",
+      "dest": "Wisconsin",
+      "days": 5,
+      "budget": 2500,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_189",
+    "premise": "Can you assist in crafting a travel itinerary for a pair of travelers originating from Milwaukee and visiting 2 cities in Michigan? The trip is 5 days long, spanning from March 21st to March 25th, 2022. Our budget is now set at $1,700, and we require accommodations that allow parties and provide private rooms. Moreover, we'd prefer if our transportation did not involve any flights. Budget: $1700. People: 2. Constraints: house rule: parties, room type: private room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Milwaukee to Michigan within budget of $1700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Milwaukee to Michigan for 5 days within the given constraints",
+    "metadata": {
+      "org": "Milwaukee",
+      "dest": "Michigan",
+      "days": 5,
+      "budget": 1700,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_190",
+    "premise": "Can you help design a 5-day travel plan for a group of 4, starting from Evansville and visiting 2 cities in Texas? The trip spans from March 12th to March 16th, 2022. Our budget is now $9,500, and for accommodations, we require entire rooms that do not restrict parties. Also, note that we prefer to avoid airline transportation. Budget: $9500. People: 4. Constraints: house rule: parties, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Evansville to Texas within budget of $9500 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Evansville to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Evansville",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 9500,
+      "people": 4,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_191",
+    "premise": "Could you help create a 5-day itinerary for a travel plan departing from Grand Junction and heading to 2 cities in Arizona from March 19th to March 23rd, 2022? It's a plan for two people with a budget of $2,100. Our accommodations should allow visitors and our preference is for private rooms. Additionally, we do not require any flight transportation. Budget: $2100. People: 2. Constraints: house rule: visitors, room type: private room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Grand Junction to Arizona within budget of $2100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Grand Junction to Arizona for 5 days within the given constraints",
+    "metadata": {
+      "org": "Grand Junction",
+      "dest": "Arizona",
+      "days": 5,
+      "budget": 2100,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_192",
+    "premise": "Could you help design a travel itinerary for 2 people, starting in Minneapolis and visiting 2 cities in Tennessee, spanning from March 2nd to March 6th, 2022? Our budget is set at $2,000. We will not be considering flight as a mode of transportation and would like to have non-shared rooms for accommodation. Also, we'd prefer smoking-friendly accommodations, as we are smokers. Budget: $2000. People: 2. Constraints: house rule: smoking, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Minneapolis to Tennessee within budget of $2000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to Tennessee for 5 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "Tennessee",
+      "days": 5,
+      "budget": 2000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_193",
+    "premise": "Can you provide a travel plan for our group of 3 from Myrtle Beach to Massachusetts, visiting 2 cities over five days, from March 12th to March 16th, 2022? We have a budget of $3,800. We would like to stay in entire rooms where smoking is allowed. Additionally, we are interested in Indian, Mexican, American, and Mediterranean cuisines. Budget: $3800. People: 3. Constraints: house rule: smoking, cuisine preference: ['Indian', 'Mexican', 'American', 'Mediterranean'], room type: entire room.",
+    "causal_feature": "planning a 5-day trip from Myrtle Beach to Massachusetts within budget of $3800 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Myrtle Beach to Massachusetts for 5 days within the given constraints",
+    "metadata": {
+      "org": "Myrtle Beach",
+      "dest": "Massachusetts",
+      "days": 5,
+      "budget": 3800,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_194",
+    "premise": "Could you arrange a 5-day travel plan for two individuals, leaving from Cedar Rapids and visiting two cities in Texas from March 11th until March 15th, 2022? Our budget is set at $2,400. Our accommodations must allow visitors. Regarding dining, we enjoy Mediterranean, Indian, Italian, and Chinese cuisines. And please ensure that our travels do not involve any flights, as we prefer other modes of transportation. Budget: $2400. People: 2. Constraints: house rule: visitors, cuisine preference: ['Mediterranean', 'Indian', 'Italian', 'Chinese'], transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Cedar Rapids to Texas within budget of $2400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Cedar Rapids to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Cedar Rapids",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_195",
+    "premise": "Can you assist in creating a comprehensive 5-day travel plan for a group of 7? We'll be starting our journey in Washington, planning to discover 2 cities in New York from March 23rd to March 27th, 2022. A budget of $9,100 is allocated for this trip. Our accommodation preferences are geared toward securing entire rooms. For transportation, we have decided to avoid self-driving. In terms of dining options, we are eager to savor a variety of cuisines, including American, Mexican, Chinese, and Italian. Budget: $9100. People: 7. Constraints: cuisine preference: ['American', 'Mexican', 'Chinese', 'Italian'], room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Washington to New York within budget of $9100 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Washington to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Washington",
+      "dest": "New York",
+      "days": 5,
+      "budget": 9100,
+      "people": 7,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_196",
+    "premise": "Could you plan a 5-day travel itinerary for a group of 7? We're set to depart from Sun Valley and aim to visit 2 cities in California from March 14th to March 18th, 2022. Our budget is now set at $11,400. In terms of accommodations, it is crucial that they allow parties. We also prefer to not fly between locations. On our trip, we look forward to enjoying a variety of cuisines, including Mediterranean, American, French, and Indian. Budget: $11400. People: 7. Constraints: house rule: parties, cuisine preference: ['Mediterranean', 'American', 'French', 'Indian'], transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Sun Valley to California within budget of $11400 for 7 person(s)",
+    "hypothesis": "A valid travel plan can be created from Sun Valley to California for 5 days within the given constraints",
+    "metadata": {
+      "org": "Sun Valley",
+      "dest": "California",
+      "days": 5,
+      "budget": 11400,
+      "people": 7,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_197",
+    "premise": "Could you assist with a 5-day travel itinerary for a group of 4, departing from Boston and visiting two cities in North Carolina from March 2nd to March 6th, 2022? Our new budget is $8,800. Our stay must accommodate visitors and provide entire rooms. It's also preferred that we don't self-drive for this trip. Budget: $8800. People: 4. Constraints: house rule: visitors, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Boston to North Carolina within budget of $8800 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Boston to North Carolina for 5 days within the given constraints",
+    "metadata": {
+      "org": "Boston",
+      "dest": "North Carolina",
+      "days": 5,
+      "budget": 8800,
+      "people": 4,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_198",
+    "premise": "Could you create a 5-day travel plan for a couple leaving from Baton Rouge and visiting 2 cities in Texas from March 16th to March 20th, 2022? We have allocated a budget of $2,900 for this trip. Important to note is that our travels will not involve any flights; we prefer other modes of transportation. For our lodgings, we insist on not shared rooms, and notably, we will be traveling with our pet, hence the need for pet-friendly accommodations. Budget: $2900. People: 2. Constraints: house rule: pets, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Baton Rouge to Texas within budget of $2900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Baton Rouge to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Baton Rouge",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 2900,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_199",
+    "premise": "Can you plan a 5-day travel itinerary from Boston to New York for two people, visiting 2 different cities between March 7th and March 11th, 2022? Our budget is now set at $2,700 for this trip. Please note that we require accommodations that allow parties, and we would like rooms that are not shared. Lastly, for our travel, we'd prefer not to fly. Budget: $2700. People: 2. Constraints: house rule: parties, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Boston to New York within budget of $2700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Boston to New York for 5 days within the given constraints",
+    "metadata": {
+      "org": "Boston",
+      "dest": "New York",
+      "days": 5,
+      "budget": 2700,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_200",
+    "premise": "Could you devise a 5-day travel itinerary for a group of 2, departing from Detroit to explore 2 cities in Wisconsin from March 1st to March 5th, 2022? Our budget is set at $3,200. We require accommodations where parties are allowed and should preferably be entire rooms. Please note that we will not be using a self-driving car; suggest other transportation modes for us. Budget: $3200. People: 2. Constraints: house rule: parties, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Detroit to Wisconsin within budget of $3200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Detroit to Wisconsin for 5 days within the given constraints",
+    "metadata": {
+      "org": "Detroit",
+      "dest": "Wisconsin",
+      "days": 5,
+      "budget": 3200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_201",
+    "premise": "Can you organize a 5-day trip for two people from Newark to Ohio, where we will visit two cities? The dates will be from March 23rd to March 27th, 2022. Our travel budget is $4,400. We anticipate hosting visitors at our accommodations, and we would like to try a variety of cuisines including French, Chinese, American, and Mexican during our trip. We prefer not to drive ourselves during this trip. Budget: $4400. People: 2. Constraints: house rule: visitors, cuisine preference: ['French', 'Chinese', 'American', 'Mexican'], transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Newark to Ohio within budget of $4400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Newark to Ohio for 5 days within the given constraints",
+    "metadata": {
+      "org": "Newark",
+      "dest": "Ohio",
+      "days": 5,
+      "budget": 4400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_202",
+    "premise": "Can you assist in preparing a 5-day travel plan for two individuals, departing from Fort Lauderdale and visiting 2 cities in Texas? The travel dates should be from March 5th to March 9th, 2022, with a budget cap of $4,200. We're open to variety when it comes to food, preferring Indian, Italian, Chinese, or Mediterranean cuisines. It's important to note that we'd like accommodations allowing parties since we're planning to host them. Kindly note that we aren't intending to drive ourselves during the trip. Budget: $4200. People: 2. Constraints: house rule: parties, cuisine preference: ['Indian', 'Italian', 'Chinese', 'Mediterranean'], transportation: no self-driving.",
+    "causal_feature": "planning a 5-day trip from Fort Lauderdale to Texas within budget of $4200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Lauderdale to Texas for 5 days within the given constraints",
+    "metadata": {
+      "org": "Fort Lauderdale",
+      "dest": "Texas",
+      "days": 5,
+      "budget": 4200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_203",
+    "premise": "Could you create a 5-day travel itinerary for two people, leaving from Chicago and visiting 2 cities in North Carolina from March 5th to March 9th, 2022? Our budget is $3,600. We require non-shared accommodations that are pet-friendly because we will be bringing our pets. We'll not be flying and will presumably drive to the destination. Budget: $3600. People: 2. Constraints: house rule: pets, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Chicago to North Carolina within budget of $3600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chicago to North Carolina for 5 days within the given constraints",
+    "metadata": {
+      "org": "Chicago",
+      "dest": "North Carolina",
+      "days": 5,
+      "budget": 3600,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_204",
+    "premise": "Could you help me organize a 5-day trip for 2 people starting from Islip to Pennsylvania, covering 2 cities between March 19th and March 23rd, 2022? Our budget is set at $2,700. We require accommodations that allow children under 10 and prefer to rent entire rooms. For our transportation, we prefer not to take any flights. Budget: $2700. People: 2. Constraints: house rule: children under 10, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 5-day trip from Islip to Pennsylvania within budget of $2700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Islip to Pennsylvania for 5 days within the given constraints",
+    "metadata": {
+      "org": "Islip",
+      "dest": "Pennsylvania",
+      "days": 5,
+      "budget": 2700,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_205",
+    "premise": "We're planning a week-long trip for two from Pittsburgh to New York with a budget of $5,300. We're set to travel from March 13th to March 19th, 2022, and plan to visit three different cities in New York. Please keep in mind that our lodgings must allow visitors. As for meals, we'd love to sample French, Italian, Chinese, and American cuisines. Also, note that we're planning to travel without taking any flights. Budget: $5300. People: 2. Constraints: house rule: visitors, cuisine preference: ['French', 'Italian', 'Chinese', 'American'], transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Pittsburgh to New York within budget of $5300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Pittsburgh to New York for 7 days within the given constraints",
+    "metadata": {
+      "org": "Pittsburgh",
+      "dest": "New York",
+      "days": 7,
+      "budget": 5300,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_206",
+    "premise": "Could you design a one-week travel itinerary for two, departing from Houston and touring three cities in Tennessee from March 21st to March 27th, 2022? Our budget is now $8,200. We require accommodations that allow smoking and should ideally be private rooms. As for transportation, we would prefer not to self-drive. Budget: $8200. People: 2. Constraints: house rule: smoking, room type: private room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Houston to Tennessee within budget of $8200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Houston to Tennessee for 7 days within the given constraints",
+    "metadata": {
+      "org": "Houston",
+      "dest": "Tennessee",
+      "days": 7,
+      "budget": 8200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_207",
+    "premise": "We're seeking a 7-day travel plan for two persons, starting from Chattanooga and covering three different cities in Georgia. The travel dates are set between March 9th to March 15th, 2022. Our new budget is $6,900. We require accommodations that are neither shared nor subject to visitor restrictions and should be private rooms. For transportation, we'd rather avoid air travel. Budget: $6900. People: 2. Constraints: house rule: visitors, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Chattanooga to Georgia within budget of $6900 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chattanooga to Georgia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Chattanooga",
+      "dest": "Georgia",
+      "days": 7,
+      "budget": 6900,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_208",
+    "premise": "Can you create a 7-day travel plan for a group of 5, departing from La Crosse and visiting 3 cities in Illinois? The travel dates are from March 18th to March 24th, 2022, and our budget is now set at $4,800. We require accommodations that are suitable for children under 10 and would like to book entire rooms. We prefer no flights for our mode of transportation. Budget: $4800. People: 5. Constraints: house rule: children under 10, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from La Crosse to Illinois within budget of $4800 for 5 person(s)",
+    "hypothesis": "A valid travel plan can be created from La Crosse to Illinois for 7 days within the given constraints",
+    "metadata": {
+      "org": "La Crosse",
+      "dest": "Illinois",
+      "days": 7,
+      "budget": 4800,
+      "people": 5,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_209",
+    "premise": "Could you generate a 7-day travel itinerary for 2 people? We would be leaving Salt Lake City and aim to visit 3 cities in California between March 25th and March 31st, 2022. We have a new budget of $4,600. When selecting accommodations, we require private rooms and it is important that smoking is permitted. As for transportation, we do not plan on self-driving. Budget: $4600. People: 2. Constraints: house rule: smoking, room type: private room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Salt Lake City to California within budget of $4600 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Salt Lake City to California for 7 days within the given constraints",
+    "metadata": {
+      "org": "Salt Lake City",
+      "dest": "California",
+      "days": 7,
+      "budget": 4600,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_210",
+    "premise": "Could you devise a 7-day travel plan for two people, starting in Las Vegas and touring 3 cities in Idaho from March 4th to March 10th, 2022? Our budget is set at $5,100. We require accommodations that allow smoking and should ideally be entire rooms. We would prefer to avoid any flights for our transportation. Budget: $5100. People: 2. Constraints: house rule: smoking, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Las Vegas to Idaho within budget of $5100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Las Vegas to Idaho for 7 days within the given constraints",
+    "metadata": {
+      "org": "Las Vegas",
+      "dest": "Idaho",
+      "days": 7,
+      "budget": 5100,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_211",
+    "premise": "Could you devise a 7-day travel itinerary for two people, departing from Santa Ana and visiting three cities in Colorado from March 1st to March 7th, 2022? Our budget is set at $7,700. We require accommodations in the form of private rooms, and we will not be self-driving. For dining, we hold a preference for Italian, French, Chinese, and American cuisines. Budget: $7700. People: 2. Constraints: cuisine preference: ['Italian', 'French', 'Chinese', 'American'], room type: private room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Santa Ana to Colorado within budget of $7700 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Santa Ana to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "Santa Ana",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 7700,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_212",
+    "premise": "I need assistance in crafting a travel plan starting in Fort Lauderdale and covering 3 cities in Georgia. The trip, designed for 2 people, will span from March 24th to March 30th, 2022. Our budget is $8,000. Regarding accommodations, we require rooms that are not shared and should accommodate children under 10. As for dining options, we have diverse tastes, including Indian, American, Chinese, and Mediterranean cuisines. Budget: $8000. People: 2. Constraints: house rule: children under 10, cuisine preference: ['Indian', 'American', 'Chinese', 'Mediterranean'], room type: not shared room.",
+    "causal_feature": "planning a 7-day trip from Fort Lauderdale to Georgia within budget of $8000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Lauderdale to Georgia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Fort Lauderdale",
+      "dest": "Georgia",
+      "days": 7,
+      "budget": 8000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_213",
+    "premise": "Can you assist me in planning a week-long trip for three people starting in Eau Claire intending to visit 3 unique cities in Illinois from March 20th to March 26th, 2022? Our budget tops out at $10,600. We are interested in local American, Chinese, French, and Italian cuisines. Please note, we won't require any flight transportation during this trip. Also, our accommodations need to permit visitors. Budget: $10600. People: 3. Constraints: house rule: visitors, cuisine preference: ['American', 'Chinese', 'French', 'Italian'], transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Eau Claire to Illinois within budget of $10600 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Eau Claire to Illinois for 7 days within the given constraints",
+    "metadata": {
+      "org": "Eau Claire",
+      "dest": "Illinois",
+      "days": 7,
+      "budget": 10600,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_214",
+    "premise": "Could you propose a one-week travel itinerary for 4 people, leaving from Seattle and heading to Florida from March 17th to March 23rd, 2022? We plan to visit 3 different cities in Florida. Our budget is set at $14,700. We require accommodations that allow parties, and we prefer to rent entire rooms. We also would prefer to avoid driving ourselves during this trip. Budget: $14700. People: 4. Constraints: house rule: parties, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Seattle to Florida within budget of $14700 for 4 person(s)",
+    "hypothesis": "A valid travel plan can be created from Seattle to Florida for 7 days within the given constraints",
+    "metadata": {
+      "org": "Seattle",
+      "dest": "Florida",
+      "days": 7,
+      "budget": 14700,
+      "people": 4,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_215",
+    "premise": "Could you help develop a week-long travel itinerary suitable for a group of 6 people, departing from Baton Rouge and planning to visit 3 different cities in Texas? The travel dates are set from March 17th to March 23rd, 2022. Our travel budget has been adjusted to $14,600. Bearing in mind that we have children under ten years old, our accommodations need to allow young children and we prefer to occupy entire rooms. We also prefer not to self-drive during this trip. Budget: $14600. People: 6. Constraints: house rule: children under 10, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Baton Rouge to Texas within budget of $14600 for 6 person(s)",
+    "hypothesis": "A valid travel plan can be created from Baton Rouge to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Baton Rouge",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 14600,
+      "people": 6,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_216",
+    "premise": "Could you create a 7-day travel itinerary for 2 people, departing from Albuquerque and visiting 3 cities in Texas from March 8th to March 14th, 2022? Our budget is set at $5,000. We require accommodations that allow smoking and are preferably not shared rooms. We would prefer to avoid any flights for our transportation. Budget: $5000. People: 2. Constraints: house rule: smoking, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Albuquerque to Texas within budget of $5000 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Albuquerque to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Albuquerque",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 5000,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_217",
+    "premise": "I am interested in a 7-day travel plan for two people, starting from Fort Lauderdale and covering three cities in Louisiana from March 8th to March 14th, 2022. We have a budget of $4,400. We'd like accommodations that house children under 10 and we'd prefer to have entire rooms to ourselves. Also, we'd like to avoid flights as a mode of transportation for this journey. Budget: $4400. People: 2. Constraints: house rule: children under 10, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Fort Lauderdale to Louisiana within budget of $4400 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Fort Lauderdale to Louisiana for 7 days within the given constraints",
+    "metadata": {
+      "org": "Fort Lauderdale",
+      "dest": "Louisiana",
+      "days": 7,
+      "budget": 4400,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_218",
+    "premise": "I'm helping you plan a 7-day trip for two people from North Platte to Colorado, exploring three cities, starting from March 20 to March 26, 2022. The trip allocation would be a budget of $6,500. When it comes to lodging, we prefer accommodations where parties are allowed, and non-shared rooms are a must for us. As for transportation, we're aiming to exclude flight options. Budget: $6500. People: 2. Constraints: house rule: parties, room type: not shared room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from North Platte to Colorado within budget of $6500 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from North Platte to Colorado for 7 days within the given constraints",
+    "metadata": {
+      "org": "North Platte",
+      "dest": "Colorado",
+      "days": 7,
+      "budget": 6500,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_219",
+    "premise": "Could you provide a seven-day trip planning for 2 participants from Minneapolis to Illinois, visiting 3 cities between March 8th to March 14th, 2022? Budget limit should be kept at $8,100. Our accommodations must be child-friendly for children under 10 and consist of private rooms. We prefer not to fly, so non-flight transportation options would be ideal. Budget: $8100. People: 2. Constraints: house rule: children under 10, room type: private room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Minneapolis to Illinois within budget of $8100 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Minneapolis to Illinois for 7 days within the given constraints",
+    "metadata": {
+      "org": "Minneapolis",
+      "dest": "Illinois",
+      "days": 7,
+      "budget": 8100,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_220",
+    "premise": "I need assistance in planning a week-long vacation for 2 individuals, starting from Chattanooga and covering 3 cities in Georgia. This trip will span from March 24th to March 30th, 2022, with a budget cap at $6,800. We'll be traveling with our children who are under 10 years old, hence, accommodations must be children-friendly and should ideally be entire rooms. For this trip, we would prefer not to take any flights. Budget: $6800. People: 2. Constraints: house rule: children under 10, room type: entire room, transportation: no flight.",
+    "causal_feature": "planning a 7-day trip from Chattanooga to Georgia within budget of $6800 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Chattanooga to Georgia for 7 days within the given constraints",
+    "metadata": {
+      "org": "Chattanooga",
+      "dest": "Georgia",
+      "days": 7,
+      "budget": 6800,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_221",
+    "premise": "Can you help devise a 7-day travel itinerary for 2 people, beginning in Salt Lake City and includes visiting 3 unique cities in Montana from March 16th to 22nd, 2022? We have a planned budget of $7,200. In terms of accommodations, we would like places where parties are permitted. Throughout our stay, we'd wish to enjoy various cuisines, including American, Mediterranean, Indian, and Chinese. Lastly, we prefer not to drive ourselves throughout this journey. Budget: $7200. People: 2. Constraints: house rule: parties, cuisine preference: ['American', 'Mediterranean', 'Indian', 'Chinese'], transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Salt Lake City to Montana within budget of $7200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Salt Lake City to Montana for 7 days within the given constraints",
+    "metadata": {
+      "org": "Salt Lake City",
+      "dest": "Montana",
+      "days": 7,
+      "budget": 7200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_222",
+    "premise": "We're planning a week-long trip with 2 people, starting in Key West and visiting 3 cities in Texas from March 3rd to March 9th, 2022. Our budget is set at $7,200 and we require accommodations that allow parties and where we have the entire rooms. As for dining, we would like to experience Mexican, Italian, Chinese, and American cuisines. Budget: $7200. People: 2. Constraints: house rule: parties, cuisine preference: ['Mexican', 'Italian', 'Chinese', 'American'], room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Key West to Texas within budget of $7200 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Key West to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Key West",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 7200,
+      "people": 2,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_223",
+    "premise": "Can you generate a one-week travel itinerary for a group of 3 from Newark to Florida covering 3 cities from March 18th to March 24th, 2022? Our budget is $10,400. We require accommodations that are entire rooms. Although we won't be self-driving, we'd prefer locations that allow parties. Budget: $10400. People: 3. Constraints: house rule: parties, room type: entire room, transportation: no self-driving.",
+    "causal_feature": "planning a 7-day trip from Newark to Florida within budget of $10400 for 3 person(s)",
+    "hypothesis": "A valid travel plan can be created from Newark to Florida for 7 days within the given constraints",
+    "metadata": {
+      "org": "Newark",
+      "dest": "Florida",
+      "days": 7,
+      "budget": 10400,
+      "people": 3,
+      "level": "hard"
+    }
+  },
+  {
+    "id": "travelplanner_224",
+    "premise": "I'm looking for a 7-day travel itinerary for 2 people, starting from Reno and heading to Texas, specifically visiting 3 different cities. The travel dates are from March 7th to March 13th, 2022, with a set budget of $4,300. We require accommodations that adhere to house rules regarding visitors and should ideally be entire rooms. For food, we would love to try a variety of cuisines, including Chinese, French, American, and Mediterranean. Budget: $4300. People: 2. Constraints: house rule: visitors, cuisine preference: ['Chinese', 'French', 'American', 'Mediterranean'], room type: entire room.",
+    "causal_feature": "planning a 7-day trip from Reno to Texas within budget of $4300 for 2 person(s)",
+    "hypothesis": "A valid travel plan can be created from Reno to Texas for 7 days within the given constraints",
+    "metadata": {
+      "org": "Reno",
+      "dest": "Texas",
+      "days": 7,
+      "budget": 4300,
+      "people": 2,
+      "level": "hard"
+    }
+  }
+]
