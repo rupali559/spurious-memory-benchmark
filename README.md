@@ -1,16 +1,9 @@
-<h1 align="center">🔬 Spurious Memory Benchmark</h1>
+<h1 align="center">Spurious Memory Benchmark</h1>
 
 <p align="center">
   <b>Benchmark pipeline to test whether LLMs can distinguish real causal relationships from spurious correlations in multi-turn memory settings</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/PyTorch-2.10-red?style=for-the-badge&logo=pytorch" />
-  <img src="https://img.shields.io/badge/Qwen-2.5--1.5B-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CUDA-Enabled-green?style=for-the-badge&logo=nvidia" />
-  <img src="https://img.shields.io/badge/Datasets-2-purple?style=for-the-badge" />
-</p>
 
 ---
 
@@ -95,10 +88,10 @@ For each dataset sample the pipeline automatically:
 
 ## How To Run - TravelPlanner
 
-    # Step 0 — Parse raw TravelPlanner dataset into standard format
+    ### Step 0 — Parse raw TravelPlanner dataset into standard format
     python3 pipeline/step0_parse_travelplanner.py
 
-    # Step 1 — Discover causal structure (T, Y, X, M, DAG) using Qwen
+    ### Step 1 — Discover causal structure (T, Y, X, M, DAG) using Qwen
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step1_discover_causal.py \
         --input_file data/travelplanner/parsed.json \
         --output_file data/travelplanner/causal_structures.json --limit 225
