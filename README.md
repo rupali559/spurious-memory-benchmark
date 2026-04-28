@@ -157,10 +157,7 @@ For every query a causal graph memory is built automatically:
     Task: Determine which candidate directly causes the outcome.
     Note: Some candidates may be correlated but not causal.
 
-Key design principles:
-- No true/spurious labels
-- Candidates shuffled randomly
-- Model must reason by itself
+
 
 ---
 
