@@ -174,9 +174,11 @@ For every query a causal graph memory is built automatically:
 
 ---
 
-## Model Used
+## Models and Systems Used
 
-Qwen/Qwen2.5-1.5B-Instruct (local, via HuggingFace transformers)
+- **Qwen2.5-1.5B-Instruct** — Local LLM for all pipeline steps. [HuggingFace](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
+- **Mem0** — Memory system for LLM agents. [GitHub](https://github.com/mem0ai/mem0)
+- **A-MEM** — Agentic memory system. [GitHub](https://github.com/WujiangXu/A-MEM)
 
 ---
 
