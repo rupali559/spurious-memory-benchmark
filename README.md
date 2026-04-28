@@ -85,24 +85,30 @@ For each dataset sample the pipeline automatically:
 
 ## How To Run - TravelPlanner
 
+    # Step 0 — Parse raw TravelPlanner dataset into standard format
     python3 pipeline/step0_parse_travelplanner.py
 
+    # Step 1 — Discover causal structure (T, Y, X, M, DAG) using Qwen
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step1_discover_causal.py \
         --input_file data/travelplanner/parsed.json \
         --output_file data/travelplanner/causal_structures.json --limit 225
 
+    # Step 2 — Generate 3 spurious types (confounding, collider, proxy)
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step2_generate_spurious.py \
         --input_file data/travelplanner/causal_structures.json \
         --output_file data/travelplanner/spurious_types.json --limit 225
 
+    # Step 3 — Validate spurious features (structural + counterfactual checks)
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step3_validate_spurious.py \
         --input_file data/travelplanner/spurious_types.json \
         --output_file data/travelplanner/spurious_validated.json --limit 225
 
+    # Step 4 — Generate 4 query versions (Q0 causal, Q1/Q2/Q3 spurious)
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step4_generate_queries.py \
         --input_file data/travelplanner/spurious_validated.json \
         --output_file data/travelplanner/queries.json --limit 225
 
+    # Step 5 — Evaluate 3 systems with token and time tracking
     CUDA_VISIBLE_DEVICES=2 python3 pipeline/step5_evaluate.py \
         --input_file data/travelplanner/queries.json \
         --output_file results/results_travelplanner.output \
